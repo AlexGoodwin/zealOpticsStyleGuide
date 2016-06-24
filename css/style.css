@@ -1,0 +1,350 @@
+@import url(reset.css);
+/* line 11, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background: #333;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5; }
+
+/* line 22, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+* {
+  box-sizing: inherit; }
+
+/* line 26, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+a {
+  font-family: "Interstate", sans-serif;
+  color: #666;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/* line 33, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Interstate", Helvetica, sans-serif;
+  padding: 1em 0em;
+  text-transform: uppercase;
+  background-color: transparent; }
+
+/* line 42, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Interstate", Helvetica, sans-serif;
+  padding: 1em 0em;
+  text-transform: uppercase;
+  background-color: transparent; }
+
+/* line 51, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+strong {
+  font-weight: bold; }
+
+/* line 56, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+.main {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  background-color: white; }
+  /* line 62, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .copyText {
+    background-image: url(../img/nice_snow.png);
+    background-size: cover;
+    width: 100%;
+    background-clip: content-box;
+    max-width: 1680px; }
+    /* line 68, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .copyText .keywordRichDescription {
+      display: block;
+      font-size: 1.5rem;
+      margin: 0 auto;
+      color: navy;
+      padding: 100px 0px;
+      max-width: 1000px;
+      text-align: center; }
+  /* line 80, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .partnerDisplay {
+    width: 100%;
+    display: flex;
+    font-size: 0;
+    padding: 30px 0px; }
+    /* line 85, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .partnerDisplay a {
+      max-width: 20%;
+      padding: 10px;
+      width: 336px; }
+      /* line 89, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .partnerDisplay a img {
+        width: 100%;
+        height: 100%; }
+  /* line 99, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .contentCardGallery {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    font-size: 0;
+    margin: 0 auto;
+    max-width: 1680px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap; }
+    /* line 109, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .contentCardGallery .card {
+      flex-basis: 50%;
+      align-content: flex-start;
+      box-sizing: border-box;
+      display: block;
+      padding: 20px; }
+      /* line 115, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .contentCardGallery .card .topHalf {
+        width: 100%;
+        position: relative; }
+        /* line 118, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+        .main .contentCardGallery .card .topHalf iframe {
+          width: 100%;
+          max-width: 1200px;
+          height: 546.666666666px; }
+      /* line 124, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .contentCardGallery .card .bottomHalf {
+        flex-flow: row wrap;
+        display: flex; }
+        /* line 127, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+        .main .contentCardGallery .card .bottomHalf .details {
+          width: 100%;
+          max-width: 1200px;
+          padding: 10px 0px 60px 0px;
+          margin: 0 auto; }
+          /* line 132, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+          .main .contentCardGallery .card .bottomHalf .details .title {
+            width: 100%;
+            font-size: 2rem;
+            text-align: left;
+            padding: 5px; }
+          /* line 138, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+          .main .contentCardGallery .card .bottomHalf .details .description {
+            width: 100%;
+            font-size: 1.2rem;
+            text-align: left;
+            padding: 5px; }
+
+/* line 149, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+.mediaElement {
+  width: 100%;
+  max-width: 1680px;
+  padding: 60px 0px;
+  text-align: center; }
+  /* line 155, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .mediaElement iframe {
+    width: 100%;
+    max-width: 1200px;
+    height: 800px;
+    padding-top: 60px; }
+  /* line 161, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .mediaElement .details {
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px 0px 60px 0px;
+    margin: 0 auto; }
+    /* line 166, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .mediaElement .details .title {
+      width: 100%;
+      font-size: 3rem;
+      text-align: left;
+      padding: 5px; }
+    /* line 172, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .mediaElement .details .description {
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: left;
+      padding: 5px; }
+
+/* line 181, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+footer {
+  background-color: #366;
+  width: 100%;
+  height: 80px;
+  color: white;
+  line-height: 80px;
+  text-align: center; }
+
+@media screen and (max-width: 992px) {
+  /* line 194, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .navbar .nav-container .left-menu {
+    display: inline-flex;
+    flex-basis: 0;
+    flex-grow: 2; }
+  /* line 200, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .navbar .nav-container .search-and-country {
+    display: none; }
+  /* line 204, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .navbar .nav-container .nav-left, .navbar .nav-container .nav-right {
+    display: none; }
+  /* line 211, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .navbar .nav-container .logo a.navbar-logo .content img {
+    height: 50px; } }
+
+@media screen and (max-width: 1680px) and (min-width: 992px) {
+  /* line 223, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .heroTop {
+    padding: 300px 0 0 0; }
+    /* line 225, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .heroTop h1 {
+      font-size: 3em; }
+  /* line 231, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .copyText .keywordRichDescription {
+    font-size: 1.5rem;
+    padding: 50px 20px; }
+  /* line 237, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .mediaElement {
+    padding: 20px 0px;
+    text-align: center; }
+    /* line 240, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .mediaElement iframe {
+      height: 751.5px;
+      padding-top: 20px; }
+    /* line 244, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .mediaElement .details {
+      padding: 10px 10px 30px 10px; }
+  /* line 249, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .olderContent {
+    display: none; }
+  /* line 256, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .contentCardGallery .card .topHalf iframe {
+    height: 310px; }
+  /* line 261, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .contentCardGallery .card .bottomHalf .details {
+    padding: 10px 0px 60px 0px; }
+    /* line 263, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .contentCardGallery .card .bottomHalf .details .title {
+      font-size: 1.5rem; }
+    /* line 266, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .contentCardGallery .card .bottomHalf .details .description {
+      font-size: 1rem; } }
+
+@media screen and (max-width: 991px) and (min-width: 500px) {
+  /* line 278, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .heroTop {
+    padding: 300px 0 0 0; }
+    /* line 280, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .heroTop h1 {
+      font-size: 2.5em; }
+  /* line 286, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .copyText .keywordRichDescription {
+    font-size: 1.5rem;
+    padding: 50px 20px; }
+  /* line 292, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .partnerDisplay {
+    width: 100%;
+    display: flex;
+    font-size: 0;
+    padding: 30px 0px;
+    flex-flow: row wrap; }
+    /* line 298, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .partnerDisplay a {
+      max-width: 20%;
+      padding: 10px;
+      width: 336px; }
+      /* line 302, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .partnerDisplay a img {
+        width: 100%;
+        height: 100%; }
+  /* line 309, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .mediaElement {
+    padding: 20px 0px;
+    text-align: center; }
+    /* line 312, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .mediaElement iframe {
+      height: 575px;
+      padding-top: 20px; }
+    /* line 316, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .mediaElement .details {
+      padding: 10px 10px 30px 10px; }
+  /* line 322, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .contentCardGallery .card {
+    width: 100%;
+    flex-basis: 100%;
+    padding: 20px; }
+    /* line 327, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .contentCardGallery .card .topHalf iframe {
+      height: 310px; }
+    /* line 332, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .contentCardGallery .card .bottomHalf .details {
+      padding: 10px 0px 60px 0px; }
+      /* line 334, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .contentCardGallery .card .bottomHalf .details .title {
+        font-size: 1.8rem; }
+      /* line 337, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .contentCardGallery .card .bottomHalf .details .description {
+        font-size: 1rem; } }
+
+@media screen and (max-width: 499px) {
+  /* line 349, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main h2 {
+    font-size: 3rem; }
+  /* line 352, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .heroTop {
+    padding: 300px 0 0 0; }
+    /* line 354, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .heroTop h1 {
+      font-size: 2.5em; }
+  /* line 360, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .copyText .keywordRichDescription {
+    font-size: 1.2rem;
+    padding: 50px 20px; }
+  /* line 366, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .partnerDisplay {
+    width: 100%;
+    display: flex;
+    font-size: 0;
+    padding: 30px 0px;
+    flex-flow: row wrap; }
+    /* line 372, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .partnerDisplay a {
+      max-width: 33.33%;
+      padding: 10px;
+      width: 336px; }
+      /* line 376, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .partnerDisplay a img {
+        width: 100%;
+        height: 100%; }
+  /* line 383, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .mediaElement {
+    padding: 20px 0px;
+    text-align: center; }
+    /* line 386, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .mediaElement iframe {
+      height: 300px;
+      padding-top: 20px; }
+    /* line 390, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .mediaElement .details {
+      padding: 10px 10px 30px 10px; }
+      /* line 392, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .mediaElement .details .title {
+        font-size: 2rem; }
+      /* line 395, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .mediaElement .details .description {
+        font-size: 1.2rem; }
+  /* line 402, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+  .main .contentCardGallery .card {
+    width: 100%;
+    flex-basis: 100%;
+    padding: 0px; }
+    /* line 407, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .contentCardGallery .card .topHalf iframe {
+      height: 250px; }
+    /* line 412, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+    .main .contentCardGallery .card .bottomHalf .details {
+      padding: 10px 0px 30px 0px; }
+      /* line 414, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .contentCardGallery .card .bottomHalf .details .title {
+        font-size: 1.8rem;
+        padding: 20px; }
+      /* line 418, C:/Users/Phillip/Downloads/video-landing-page-master/css/style.scss */
+      .main .contentCardGallery .card .bottomHalf .details .description {
+        font-size: 1.2rem;
+        padding: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
