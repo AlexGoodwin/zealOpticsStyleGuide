@@ -1,5 +1,5 @@
 @import url(reset.css);
-/* line 11, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 14, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 body {
   padding: 0;
   margin: 0;
@@ -8,24 +8,52 @@ body {
   font-family: "Interstate", Helvetica, Arial, sans-serif;
   letter-spacing: .025em;
   color: #333;
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-size: 16px; }
 
-/* line 22, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 26, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 * {
   box-sizing: inherit; }
 
-/* line 26, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-.details {
-  text-align: center; }
+/* line 30, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.main {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 5em; }
 
-/* line 30, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 39, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 a {
   font-family: "Interstate", sans-serif;
   color: #666;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 1em; }
 
-/* line 37, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 55, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.styleGuideHeader {
+  color: white;
+  background-color: #036;
+  padding: 200px 0; }
+
+/* line 61, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.exampleLink {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px; }
+  /* line 65, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+  .exampleLink a {
+    width: auto;
+    text-align: center;
+    display: block; }
+
+/* line 72, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.typography, .color, .compnents {
+  padding: 3em 0; }
+
+/* line 76, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h1, h2, h3, h4, h5, h6, h7 {
   font-family: "Interstate",Helvetica,Arial,sans-serif;
   margin: 0;
@@ -35,361 +63,329 @@ h1, h2, h3, h4, h5, h6, h7 {
   padding: 1em 0em;
   text-align: center;
   background-color: transparent;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #333; }
 
-/* line 49, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 89, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h1 {
   font-weight: bold;
-  font-size: 90px;
+  font-size: 6em;
   letter-spacing: .025em;
   text-transform: uppercase; }
 
-/* line 56, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 96, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h2 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 42px;
+  font-size: 4em;
   letter-spacing: 0; }
 
-/* line 63, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 103, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 3em;
   letter-spacing: 0; }
 
-/* line 70, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 110, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h4 {
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 24px;
+  text-transform: lowercase;
+  font-size: 2em;
   letter-spacing: .05em; }
 
-/* line 77, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 117, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h5 {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: .025em; }
-
-/* line 84, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-h6 {
   font-weight: normal;
-  text-transform: uppercase;
-  font-size: 18px;
+  text-transform: lowercase;
+  font-size: 2em;
   letter-spacing: .025em; }
 
-/* line 91, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-h7 {
+/* line 124, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+h6 {
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 16px;
+  text-transform: lowercase;
+  font-size: 1em;
+  letter-spacing: .025em; }
+
+/* line 131, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+h7 {
+  font-weight: normal;
+  text-transform: lowercase;
+  font-size: 1em;
   letter-spacing: 0; }
 
-/* line 99, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+/* line 139, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 strong {
   font-weight: bold; }
 
-/* line 104, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-.main {
+/* line 143, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+p {
+  font-size: 1em;
+  color: #333;
   width: 100%;
-  max-width: 1680px;
+  max-width: 1000px;
   margin: 0 auto;
-  background-color: white; }
-  /* line 110, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-  .main .copyText {
-    background-image: url(../img/nice_snow.png);
-    background-size: cover;
-    width: 100%;
-    background-clip: content-box;
-    max-width: 1680px; }
-    /* line 116, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-    .main .copyText .keywordRichDescription {
-      display: block;
-      font-size: 1.5rem;
-      margin: 0 auto;
-      color: navy;
-      padding: 100px 0px;
-      max-width: 1000px;
-      text-align: center; }
-  /* line 128, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-  .main .partnerDisplay {
-    width: 100%;
-    display: flex;
-    font-size: 0;
-    padding: 30px 0px; }
-    /* line 133, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-    .main .partnerDisplay a {
-      max-width: 20%;
-      padding: 10px;
-      width: 336px; }
-      /* line 137, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-      .main .partnerDisplay a img {
-        width: 100%;
-        height: 100%; }
-  /* line 147, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-  .main .contentCardGallery {
-    width: 100%;
-    text-align: center;
-    background-color: transparent;
-    font-size: 0;
-    margin: 0 auto;
-    max-width: 1680px;
-    box-sizing: border-box;
-    display: flex;
-    flex-flow: row wrap; }
-    /* line 157, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-    .main .contentCardGallery .card {
-      flex-basis: 50%;
-      align-content: flex-start;
-      box-sizing: border-box;
-      display: block;
-      padding: 20px; }
-      /* line 163, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-      .main .contentCardGallery .card .topHalf {
-        width: 100%;
-        position: relative; }
-        /* line 166, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-        .main .contentCardGallery .card .topHalf iframe {
-          width: 100%;
-          max-width: 1200px;
-          height: 546.666666666px; }
-      /* line 172, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-      .main .contentCardGallery .card .bottomHalf {
-        flex-flow: row wrap;
-        display: flex; }
-        /* line 175, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-        .main .contentCardGallery .card .bottomHalf .details {
-          width: 100%;
-          max-width: 1200px;
-          padding: 10px 0px 60px 0px;
-          margin: 0 auto; }
-          /* line 180, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-          .main .contentCardGallery .card .bottomHalf .details .title {
-            width: 100%;
-            font-size: 2rem;
-            text-align: left;
-            padding: 5px; }
-          /* line 186, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-          .main .contentCardGallery .card .bottomHalf .details .description {
-            width: 100%;
-            font-size: 1.2rem;
-            text-align: left;
-            padding: 5px; }
+  text-align: left;
+  padding: 1em; }
 
-/* line 197, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-.mediaElement {
-  width: 100%;
-  max-width: 1680px;
-  padding: 60px 0px;
-  text-align: center; }
-  /* line 203, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-  .mediaElement iframe {
-    width: 100%;
-    max-width: 1200px;
-    height: 800px;
-    padding-top: 60px; }
-  /* line 209, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-  .mediaElement .details {
-    width: 100%;
-    max-width: 1200px;
-    padding: 10px 0px 60px 0px;
-    margin: 0 auto; }
-    /* line 214, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-    .mediaElement .details .title {
-      width: 100%;
-      font-size: 3rem;
-      text-align: left;
-      padding: 5px; }
-    /* line 220, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-    .mediaElement .details .description {
-      width: 100%;
-      font-size: 1.5rem;
-      text-align: left;
-      padding: 5px; }
-
-/* line 229, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
-footer {
-  background-color: #366;
-  width: 100%;
-  height: 80px;
+/* line 153, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.footerText {
+  font-size: 1em;
   color: white;
-  line-height: 80px;
-  text-align: center; }
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;
+  background-color: #366; }
+
+/* line 164, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.heroHeader {
+  background-image: url("../img/hero.jpg");
+  background-size: cover; }
+  /* line 167, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+  .heroHeader h1 {
+    padding: 300px 0;
+    color: white; }
+
+/* line 173, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.color {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  background-color: white; }
+  /* line 178, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+  .color .colorBox {
+    flex-basis: 50%;
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    display: flex; }
+    /* line 184, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .white, .color .colorBox .orange {
+      padding: 20px;
+      height: 400px;
+      flex-basis: 100%; }
+    /* line 189, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox p, .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .white, .color .colorBox .orange {
+      margin: 0 auto;
+      color: white;
+      font-size: 32px;
+      padding: 10px; }
+    /* line 195, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .wHover {
+      padding: 20px;
+      height: 400px;
+      flex-basis: 50%;
+      flex-flow: row nowrap; }
+    /* line 201, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .white {
+      background-color: white;
+      border-style: solid;
+      border-color: black;
+      border-width: 4px; }
+      /* line 206, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+      .color .colorBox .white p {
+        color: black; }
+    /* line 210, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .lightGrey {
+      background-color: #ccc; }
+    /* line 213, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .mediumGrey {
+      background-color: #666; }
+    /* line 216, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .darkGrey {
+      background-color: #333; }
+    /* line 219, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .navy {
+      background-color: #036; }
+    /* line 222, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .turquoise {
+      background-color: #366; }
+    /* line 225, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .orange {
+      background-color: #c30; }
+    /* line 228, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .rust {
+      background-color: #a52900; }
+    /* line 231, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+    .color .colorBox .black {
+      background-color: #000; }
 
 @media screen and (max-width: 992px) {
-  /* line 242, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 241, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .navbar .nav-container .left-menu {
     display: inline-flex;
     flex-basis: 0;
     flex-grow: 2; }
-  /* line 248, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 247, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .navbar .nav-container .search-and-country {
     display: none; }
-  /* line 252, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 251, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .navbar .nav-container .nav-left, .navbar .nav-container .nav-right {
     display: none; }
-  /* line 259, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 258, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .navbar .nav-container .logo a.navbar-logo .content img {
     height: 50px; } }
 
 @media screen and (max-width: 1680px) and (min-width: 992px) {
-  /* line 271, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 270, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .heroTop {
     padding: 300px 0 0 0; }
-    /* line 273, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 272, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .heroTop h1 {
       font-size: 3em; }
-  /* line 279, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 278, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .copyText .keywordRichDescription {
     font-size: 1.5rem;
     padding: 50px 20px; }
-  /* line 285, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 284, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .mediaElement {
     padding: 20px 0px;
     text-align: center; }
-    /* line 288, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 287, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .mediaElement iframe {
       height: 751.5px;
       padding-top: 20px; }
-    /* line 292, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 291, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .mediaElement .details {
       padding: 10px 10px 30px 10px; }
-  /* line 297, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 296, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .olderContent {
     display: none; }
-  /* line 304, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 303, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .contentCardGallery .card .topHalf iframe {
     height: 310px; }
-  /* line 309, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 308, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .contentCardGallery .card .bottomHalf .details {
     padding: 10px 0px 60px 0px; }
-    /* line 311, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 310, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .contentCardGallery .card .bottomHalf .details .title {
       font-size: 1.5rem; }
-    /* line 314, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 313, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .contentCardGallery .card .bottomHalf .details .description {
       font-size: 1rem; } }
 
 @media screen and (max-width: 991px) and (min-width: 500px) {
-  /* line 326, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 325, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .heroTop {
     padding: 300px 0 0 0; }
-    /* line 328, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 327, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .heroTop h1 {
       font-size: 2.5em; }
-  /* line 334, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 333, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .copyText .keywordRichDescription {
     font-size: 1.5rem;
     padding: 50px 20px; }
-  /* line 340, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 339, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .partnerDisplay {
     width: 100%;
     display: flex;
     font-size: 0;
     padding: 30px 0px;
     flex-flow: row wrap; }
-    /* line 346, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 345, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .partnerDisplay a {
       max-width: 20%;
       padding: 10px;
       width: 336px; }
-      /* line 350, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 349, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .partnerDisplay a img {
         width: 100%;
         height: 100%; }
-  /* line 357, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 356, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .mediaElement {
     padding: 20px 0px;
     text-align: center; }
-    /* line 360, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 359, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .mediaElement iframe {
       height: 575px;
       padding-top: 20px; }
-    /* line 364, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 363, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .mediaElement .details {
       padding: 10px 10px 30px 10px; }
-  /* line 370, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 369, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .contentCardGallery .card {
     width: 100%;
     flex-basis: 100%;
     padding: 20px; }
-    /* line 375, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 374, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .contentCardGallery .card .topHalf iframe {
       height: 310px; }
-    /* line 380, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 379, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .contentCardGallery .card .bottomHalf .details {
       padding: 10px 0px 60px 0px; }
-      /* line 382, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 381, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .contentCardGallery .card .bottomHalf .details .title {
         font-size: 1.8rem; }
-      /* line 385, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 384, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .contentCardGallery .card .bottomHalf .details .description {
         font-size: 1rem; } }
 
 @media screen and (max-width: 499px) {
-  /* line 397, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 396, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main h2 {
     font-size: 3rem; }
-  /* line 400, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 399, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .heroTop {
     padding: 300px 0 0 0; }
-    /* line 402, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 401, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .heroTop h1 {
       font-size: 2.5em; }
-  /* line 408, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 407, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .copyText .keywordRichDescription {
     font-size: 1.2rem;
     padding: 50px 20px; }
-  /* line 414, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 413, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .partnerDisplay {
     width: 100%;
     display: flex;
     font-size: 0;
     padding: 30px 0px;
     flex-flow: row wrap; }
-    /* line 420, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 419, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .partnerDisplay a {
       max-width: 33.33%;
       padding: 10px;
       width: 336px; }
-      /* line 424, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 423, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .partnerDisplay a img {
         width: 100%;
         height: 100%; }
-  /* line 431, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 430, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .mediaElement {
     padding: 20px 0px;
     text-align: center; }
-    /* line 434, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 433, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .mediaElement iframe {
       height: 300px;
       padding-top: 20px; }
-    /* line 438, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 437, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .mediaElement .details {
       padding: 10px 10px 30px 10px; }
-      /* line 440, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 439, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .mediaElement .details .title {
         font-size: 2rem; }
-      /* line 443, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 442, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .mediaElement .details .description {
         font-size: 1.2rem; }
-  /* line 450, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+  /* line 449, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .main .contentCardGallery .card {
     width: 100%;
     flex-basis: 100%;
     padding: 0px; }
-    /* line 455, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 454, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .contentCardGallery .card .topHalf iframe {
       height: 250px; }
-    /* line 460, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+    /* line 459, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .main .contentCardGallery .card .bottomHalf .details {
       padding: 10px 0px 30px 0px; }
-      /* line 462, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 461, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .contentCardGallery .card .bottomHalf .details .title {
         font-size: 1.8rem;
         padding: 20px; }
-      /* line 466, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/style.scss */
+      /* line 465, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .main .contentCardGallery .card .bottomHalf .details .description {
         font-size: 1.2rem;
         padding: 20px; } }
