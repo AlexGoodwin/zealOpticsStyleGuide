@@ -13,7 +13,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css"/>
 
         <!-- webtype fonts -->
         <link href="css/f8780814-4f06-4cb3-a33a-a4037a65ed35.css" rel="stylesheet" type="text/css" />
@@ -37,7 +37,7 @@
                 <h7> Header 7 </h7> 
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed erat dapibus, rutrum leo vel, iaculis lorem. Cras tincidunt viverra enim, vitae rutrum odio tempus quis. Mauris massa orci, feugiat vitae risus in, ullamcorper finibus erat. Pellentesque ante sem, semper non magna vitae, ornare semper nibh. Aliquam a nunc id ipsum luctus pellentesque. Vestibulum sed sem volutpat, porta ante sed, dignissim neque. Mauris in molestie erat, fermentum ultrices massa. Sed congue enim vel sapien gravida, in tincidunt risus laoreet. Integer sit amet sem quis nisl vehicula lobortis. Nulla ultrices suscipit mi, in volutpat mauris cursus et. Quisque est diam, gravida vel risus sed, rhoncus ultrices libero. Mauris mattis sapien at ligula lacinia tincidunt. Sed iaculis cursus risus nec pulvinar. Curabitur elementum feugiat ante, ut dictum lacus accumsan in. Vivamus euismod pharetra tortor, sed euismod mauris sollicitudin non.</p>
     <!--            FIX LINK NEEDS HOVER, on website hover is set with js and in some instances changes size of text as well as darkens text -->
-                <div class="exampleLink"><a href="" target="_blank">link (NEEDS HOVER STATE)</a></div>
+                <div class="exampleLink"><a href="" target="_blank">link</a></div>
                 <p class="footerText">footer text</p>
             </div>
                 <hr>
@@ -45,15 +45,17 @@
                 <hr>
             <div class="color">
                 <div class="colorBox">
-                    <div class="white wHover">
-                        <p>white</p>
+                    <div class="whiteAndNavy wHover">
+                        <p>white/navy</p>
                         <p>#fff</p>
+                        <p>border/text: #036</p>
                         <p>buttons on colored backgrounds</p>
                     </div>
-                    <div class="white wHover">
-                        <p>white hover/active</p>
+                    <div class="whiteAndBlack wHover">
+                        <p>white/black</p>
                         <p>#fff</p>
-                        <p>needs hover/active state</p>
+                        <p>border/text: #000</p>
+                        <p>buttons on colored backgrounds hover/active</p>
                     </div>
                 </div>
                 <div class="colorBox">
@@ -100,7 +102,7 @@
                     <div class="rust wHover">
                         <p>rust</p>
                         <p>#a52900</p>
-                        <p>uses: button hover</p>
+                        <p>uses: button hover/active</p>
                     </div>
                 </div>
                 <div class="colorBox">
@@ -114,16 +116,60 @@
             <div class="components">
                 <hr>
                 <h2> Components </h2>
-                <hr>
-                
+                <hr>                
                 <div class="heroHeader">
                     <h1>Hero Header</h1>
                 </div>
+                
+                <a class="standAloneButton"> Stand Alone Button</a>
+                
+                <div class="overlayButtonBackground">
+                    <a class="overlayButton">Overlay Button</a>
+                </div>
+                
+                <div class="fullSizeCard">
+                    <div class="top">
+                        <iframe src="https://www.youtube.com/embed/-Kt2JaYFpVQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="bottom">
+                        <h3 class="title">Full Size Card</h3>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod sapien varius sodales pharetra. Vestibulum in nisi nulla. Quisque dignissim placerat risus, efficitur auctor ligula congue vel. Vestibulum elit turpis, ultrices vel mauris non, pretium ornare diam. Etiam dictum consectetur porta. Quisque feugiat sapien id ipsum imperdiet, ut aliquam erat laoreet. Quisque dapibus pulvinar cursus.</div>
+                        <a class="standAloneButton"> Call To Action</a>
+                    </div>
+                </div>
+                
+                 <div class="nonFullSizeCardSection">      
+                    <div class="nonFullSizeCard">
+                        <div class="top">
+                            <img src="img/biking.jpg">
+                        </div>
+                        <div class="bottom">
+                            <h3 class="title">Non-Full Size Card</h3>
+                            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod sapien varius sodales pharetra. Vestibulum in nisi nulla. Quisque dignissim placerat risus, efficitur auctor ligula congue vel. Vestibulum elit turpis, ultrices vel mauris non, pretium ornare diam. Etiam dictum consectetur porta. Quisque feugiat sapien id ipsum imperdiet, ut aliquam erat laoreet. Quisque dapibus pulvinar cursus.</div>
+                            <a class="standAloneButton"> Call To Action</a>
+                        </div>
+                    </div>                    
+                    
+                     <div class="nonFullSizeCard">
+                        <div class="top">
+                            <img src="img/biking.jpg">
+                        </div>
+                        <div class="bottom">
+                            <h3 class="title">Non-Full Size Card</h3>
+                            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod sapien varius sodales pharetra. Vestibulum in nisi nulla. Quisque dignissim placerat risus, efficitur auctor ligula congue vel. Vestibulum elit turpis, ultrices vel mauris non, pretium ornare diam. Etiam dictum consectetur porta. Quisque feugiat sapien id ipsum imperdiet, ut aliquam erat laoreet. Quisque dapibus pulvinar cursus.</div>
+                            <a class="standAloneButton"> Call To Action</a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </body>
-        <script src="js/jquery-2.1.4.min.js"></script>
-
-
-
-        </html>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script>
+        $('.nonFullSizeCardSection').masonry({
+            itemSelector: '.nonFullSizeCard', 
+            gutter: 0
+        });
+    </script>
+</html>
