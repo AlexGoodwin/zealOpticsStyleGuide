@@ -1,0 +1,116 @@
+a {
+    font-family: "Interstate", sans-serif;
+    color: $mediumGrey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding:1em;
+    transition: color 0.5s ease;
+}
+a:hover {
+    color:$navy;    
+}
+
+a:active {
+    color:$navy;
+}
+
+.exampleLink{
+    margin:0 auto;
+    width:100%;
+    max-width:1000px;
+    display: flex;
+    a{
+        width:auto;
+        display:block;
+        margin:0 auto;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: "Interstate",Helvetica,Arial,sans-serif;
+    margin: 0;
+    display: block;
+    line-height: normal;
+    word-wrap: break-word;
+    padding: 1em 0em;    
+    text-align: center;
+    background-color:rgba(0,0,0,0);
+    margin:0 auto;
+    color:$darkGrey;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 6em; //96px
+    letter-spacing: .025em;  
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4em; //64px
+    letter-spacing: 0;
+}
+
+h3 {   
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3em; //48px
+    letter-spacing: 0;
+}
+
+h4 {
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 2em;
+    letter-spacing: .05em;
+}
+
+h5 {
+    font-weight: normal;
+    text-transform: lowercase;
+    font-size: 2em;
+    letter-spacing: .025em;
+}
+
+h6 {
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 1em;
+    letter-spacing: .025em;
+}
+
+h7 {
+    font-weight: normal;
+    text-transform: lowercase;
+    font-size: 1em;
+    letter-spacing: 0;
+}
+
+
+strong{
+    font-weight:bold;
+}
+
+p{
+    font-size: 1em;
+    color:$darkGrey;
+    width:100%;
+    max-width:700px;
+    margin:0 auto;
+    text-align:left;
+    padding:1em;
+}
+
+.footerText{
+    font-size: 1em;
+    color:white;
+    width:100%;
+//    max-width:1000px;
+    margin:0 auto;
+    text-align:center;
+    padding:1em;
+    background-color:$turquoise;
+}
