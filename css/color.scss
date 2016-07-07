@@ -1,0 +1,97 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Interstate", Helvetica, Arial, sans-serif;
+    letter-spacing: .025em;
+    color: $darkGrey;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.color{
+        display:flex;
+        flex-flow:row wrap;
+        padding:20px;
+        background-color:white;
+        .colorBox{
+            flex-basis:47%;
+            background-color:white;
+            height:auto;
+            padding:20px;
+            display:flex;
+            .lightGrey,.mediumGrey,.darkGrey,.navy,.turquoise,.black,.whiteAndNavy, .whiteAndBlack,.orange,.rust{
+                padding:20px;
+                height:400px;
+                flex-basis:100%;
+            }   
+            p,.lightGrey,.mediumGrey,.darkGrey,.navy,.turquoise,.black,.whiteAndNavy, .whiteAndBlack,.orange,.rust{
+                margin:0 auto;
+                color:white;
+                font-size:32px;
+                padding:10px;
+            }
+            .wHover{
+//                padding:20px;
+                height:400px;
+                flex-basis:50%;
+                flex-flow: row nowrap;
+            }  
+            .whiteAndNavy{
+                background-color:white;
+                border-style: solid;
+                border-color: $navy;
+                border-width: 4px;
+                p{
+                    color:$navy;
+                }
+            }
+            
+            .whiteAndBlack{
+                background-color:white;
+                border-style: solid;
+                border-color: black;
+                border-width: 4px;
+                p{
+                    color:black;
+                }
+            }
+            
+            .lightGrey{
+                background-color:$lightGrey;
+            }
+            .mediumGrey{
+                background-color:$mediumGrey;
+            }
+            .darkGrey{
+                background-color:$darkGrey;
+            }
+            .navy{
+                background-color:$navy;
+            }
+            .turquoise{
+                background-color:$turquoise;
+            }
+            .orange{
+                background-color:$orange;
+            }
+            .rust{
+                background-color:$rust;
+            }
+            .black{
+                background-color:$black;
+            }
+        }
+    }

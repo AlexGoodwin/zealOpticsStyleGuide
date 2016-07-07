@@ -1,2 +1,130 @@
+@import url(reset.css);
+@import url(color.css);
+/* line 13, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px; }
+
+/* line 24, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+a {
+  font-family: "Interstate", sans-serif;
+  color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 1em;
+  transition: color 0.5s ease; }
+
+/* line 33, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+a:hover {
+  color: #036; }
+
+/* line 37, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+a:active {
+  color: #036; }
+
+/* line 41, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+.exampleLink {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  display: flex; }
+  /* line 46, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+  .exampleLink a {
+    width: auto;
+    display: block;
+    margin: 0 auto; }
+
+/* line 53, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: "Interstate",Helvetica,Arial,sans-serif;
+  margin: 0;
+  display: block;
+  line-height: normal;
+  word-wrap: break-word;
+  padding: 1em 0em;
+  text-align: center;
+  background-color: transparent;
+  margin: 0 auto;
+  color: #333; }
+
+/* line 66, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h1 {
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: .025em;
+  text-transform: uppercase; }
+
+/* line 73, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 0; }
+
+/* line 80, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 0; }
+
+/* line 87, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h4 {
+  font-weight: bold;
+  text-transform: lowercase;
+  font-size: 2em;
+  letter-spacing: .05em; }
+
+/* line 94, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h5 {
+  font-weight: normal;
+  text-transform: lowercase;
+  font-size: 2em;
+  letter-spacing: .025em; }
+
+/* line 101, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h6 {
+  font-weight: bold;
+  text-transform: lowercase;
+  font-size: 1em;
+  letter-spacing: .025em; }
+
+/* line 108, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+h7 {
+  font-weight: normal;
+  text-transform: lowercase;
+  font-size: 1em;
+  letter-spacing: 0; }
+
+/* line 116, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+strong {
+  font-weight: bold; }
+
+/* line 120, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+p {
+  font-size: 1em;
+  color: #333;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1em; }
+
+/* line 130, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/typography.scss */
+.footerText {
+  font-size: 1em;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;
+  background-color: #366; }
 
 /*# sourceMappingURL=typography.css.map */

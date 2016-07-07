@@ -1,0 +1,45 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+/* line 14, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/topPromoBar.scss */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px; }
+  /* line 24, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/topPromoBar.scss */
+  body .topPromoBar {
+    background: #366;
+    width: 100%;
+    height: auto;
+    font-family: "Interstate", Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+    /* line 31, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/topPromoBar.scss */
+    body .topPromoBar a {
+      width: auto;
+      text-align: center;
+      margin: 0 auto;
+      display: block; }
+      /* line 43, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/topPromoBar.scss */
+      body .topPromoBar a span {
+        color: white;
+        text-align: center; }
+    /* line 49, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/topPromoBar.scss */
+    body .topPromoBar .btnClose {
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      display: block;
+      box-sizing: border-box; }
+      /* line 55, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/topPromoBar.scss */
+      body .topPromoBar .btnClose button {
+        height: 16px;
+        width: 16px;
+        text-indent: -9999px;
+        border: 0 none; }
+
+/*# sourceMappingURL=topPromoBar.css.map */

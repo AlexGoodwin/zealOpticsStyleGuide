@@ -1,0 +1,86 @@
+@import url(reset.css);
+@import url(typography.css);
+/* line 13, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px; }
+
+/* line 24, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+.color {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  background-color: white; }
+  /* line 29, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+  .color .colorBox {
+    flex-basis: 47%;
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    display: flex; }
+    /* line 35, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .whiteAndNavy, .color .colorBox .whiteAndBlack, .color .colorBox .orange, .color .colorBox .rust {
+      padding: 20px;
+      height: 400px;
+      flex-basis: 100%; }
+    /* line 40, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox p, .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .whiteAndNavy, .color .colorBox .whiteAndBlack, .color .colorBox .orange, .color .colorBox .rust {
+      margin: 0 auto;
+      color: white;
+      font-size: 32px;
+      padding: 10px; }
+    /* line 46, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .wHover {
+      height: 400px;
+      flex-basis: 50%;
+      flex-flow: row nowrap; }
+    /* line 52, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .whiteAndNavy {
+      background-color: white;
+      border-style: solid;
+      border-color: #036;
+      border-width: 4px; }
+      /* line 57, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+      .color .colorBox .whiteAndNavy p {
+        color: #036; }
+    /* line 62, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .whiteAndBlack {
+      background-color: white;
+      border-style: solid;
+      border-color: black;
+      border-width: 4px; }
+      /* line 67, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+      .color .colorBox .whiteAndBlack p {
+        color: black; }
+    /* line 72, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .lightGrey {
+      background-color: #ccc; }
+    /* line 75, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .mediumGrey {
+      background-color: #666; }
+    /* line 78, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .darkGrey {
+      background-color: #333; }
+    /* line 81, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .navy {
+      background-color: #036; }
+    /* line 84, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .turquoise {
+      background-color: #366; }
+    /* line 87, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .orange {
+      background-color: #c30; }
+    /* line 90, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .rust {
+      background-color: #a52900; }
+    /* line 93, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/color.scss */
+    .color .colorBox .black {
+      background-color: #000; }
+
+/*# sourceMappingURL=color.css.map */

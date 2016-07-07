@@ -1,0 +1,64 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Interstate", Helvetica, Arial, sans-serif;
+    letter-spacing: .025em;
+    color: $darkGrey;
+    line-height: 1.5;
+    font-size: 16px;
+
+    .topPromoBar{
+        background:#366;
+        width:100%;
+        height:auto;
+//        z-index: 100;
+        font-family: "Interstate", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        a{
+            width:auto;
+            text-align:center;
+            margin:0 auto;
+            display:block;
+
+            //I only want before on second element, how is that done
+//            span:before{
+//                padding: 0 10px;
+//                color: #fff;
+//                content: "|\00a0";   
+//            }
+            span{
+                color:white;
+//                padding:1em;
+                text-align:center;
+            }
+        }
+        .btnClose{
+            position: absolute;
+            top: 15px;
+            right: 30px;
+            display:block;
+            box-sizing:border-box;
+            button{
+//                background: url("../images/btn-promobanner.png") top left no-repeat;
+                height: 16px;
+                width: 16px;
+                text-indent: -9999px;
+                border: 0 none;
+            }
+        }
+    }
+}
