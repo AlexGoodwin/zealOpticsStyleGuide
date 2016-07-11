@@ -1,0 +1,42 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+@import url(style.css);
+/* line 15, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/standAloneButton.scss */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: #fff; }
+  /* line 25, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/standAloneButton.scss */
+  body .standAloneButton {
+    background: #c30;
+    color: white;
+    padding: 1em 2em;
+    margin: 30px auto;
+    text-align: center;
+    display: table;
+    width: auto;
+    font-size: 1em;
+    transition: background-color 0.5s ease; }
+  /* line 37, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/standAloneButton.scss */
+  body .standAloneButton:hover {
+    background-color: #b20;
+    color: white; }
+  /* line 42, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/standAloneButton.scss */
+  body .standAloneButton:active {
+    background-color: #b20;
+    color: white; }
+  /* line 47, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/standAloneButton.scss */
+  body .left {
+    margin-left: 30px; }
+  /* line 51, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/standAloneButton.scss */
+  body .right {
+    margin-right: 30px; }
+
+/*# sourceMappingURL=standAloneButton.css.map */

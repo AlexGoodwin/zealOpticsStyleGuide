@@ -1,21 +1,24 @@
 @import url(reset.css);
-/* line 14, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 body {
   padding: 0;
   margin: 0;
-  background: #333;
+  background: white;
+  background-color: white;
   box-sizing: border-box;
   font-family: "Interstate", Helvetica, Arial, sans-serif;
   letter-spacing: .025em;
   color: #333;
   line-height: 1.5;
-  font-size: 16px; }
+  font-size: 16px;
+  width: 100%; }
 
-/* line 26, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 * {
   box-sizing: inherit; }
 
-/* line 30, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.patternBG {
+  background-image: url("../img/nice_snow.png");
+  background-repeat: repeat; }
+
 .main {
   width: 100%;
   max-width: 1680px;
@@ -23,7 +26,6 @@ body {
   background-color: white;
   padding-bottom: 5em; }
 
-/* line 39, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 a {
   font-family: "Interstate", sans-serif;
   color: #666;
@@ -33,37 +35,30 @@ a {
   padding: 1em;
   transition: color 0.5s ease; }
 
-/* line 48, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 a:hover {
   color: #036; }
 
-/* line 52, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 a:active {
   color: #036; }
 
-/* line 56, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .styleGuideHeader {
   color: white;
   background-color: #036;
   padding: 200px 0; }
 
-/* line 62, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .exampleLink {
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
   display: flex; }
-  /* line 67, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .exampleLink a {
     width: auto;
     display: block;
     margin: 0 auto; }
 
-/* line 74, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .typography, .color, .components {
   padding: 3em 0; }
 
-/* line 78, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h1, h2, h3, h4, h5, h6, h7 {
   font-family: "Interstate",Helvetica,Arial,sans-serif;
   margin: 0;
@@ -76,60 +71,47 @@ h1, h2, h3, h4, h5, h6, h7 {
   margin: 0 auto;
   color: #333; }
 
-/* line 91, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h1 {
   font-weight: bold;
   font-size: 6em;
   letter-spacing: .025em;
   text-transform: uppercase; }
 
-/* line 98, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 4em;
   letter-spacing: 0; }
 
-/* line 105, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h3 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 3em;
   letter-spacing: 0; }
 
-/* line 112, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h4 {
   font-weight: bold;
-  text-transform: lowercase;
   font-size: 2em;
   letter-spacing: .05em; }
 
-/* line 119, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h5 {
   font-weight: normal;
-  text-transform: lowercase;
   font-size: 2em;
   letter-spacing: .025em; }
 
-/* line 126, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h6 {
   font-weight: bold;
-  text-transform: lowercase;
   font-size: 1em;
   letter-spacing: .025em; }
 
-/* line 133, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 h7 {
   font-weight: normal;
-  text-transform: lowercase;
   font-size: 1em;
   letter-spacing: 0; }
 
-/* line 141, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 strong {
   font-weight: bold; }
 
-/* line 145, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 p {
   font-size: 1em;
   color: #333;
@@ -138,8 +120,15 @@ p {
   margin: 0 auto;
   text-align: left;
   padding: 1em; }
+  p .eighteen {
+    font-size: 18px; }
 
-/* line 155, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
 .footerText {
   font-size: 1em;
   color: white;
@@ -150,38 +139,32 @@ p {
   padding: 1em;
   background-color: #366; }
 
-/* line 166, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .heroHeader {
   background-image: url("../img/hero.jpg");
   background-size: cover; }
-  /* line 169, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .heroHeader h1 {
     padding: 350px 0;
     color: white; }
 
-/* line 175, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .standAloneButton {
   background: #c30;
   color: white;
   padding: 1em 2em;
-  margin: 30px auto;
+  margin: 30px auto 0px auto;
   text-align: center;
   display: table;
   width: auto;
   font-size: 1em;
   transition: background-color 0.5s ease; }
 
-/* line 187, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .standAloneButton:hover {
   background-color: #b20;
   color: white; }
 
-/* line 192, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .standAloneButton:active {
   background-color: #b20;
   color: white; }
 
-/* line 197, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .overlayButtonBackground {
   width: 600px;
   height: 400px;
@@ -192,7 +175,6 @@ p {
   justify-content: center;
   align-items: center; }
 
-/* line 207, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .overlayButton {
   background: white;
   color: #036;
@@ -208,59 +190,49 @@ p {
   transition: border 0.5s ease;
   transition: color 0.5s ease; }
 
-/* line 223, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .overlayButton:hover {
   border-color: #000;
   color: #000; }
 
-/* line 228, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .overlayButton:active {
   border-color: #000;
   color: #000; }
 
-/* line 233, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .fullSizeCard {
   width: 100%;
   max-width: 1680px;
   padding: 60px 0px;
   text-align: center; }
-  /* line 238, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .fullSizeCard .top {
     height: auto;
     width: 100%; }
-    /* line 241, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .fullSizeCard .top iframe {
       width: 100%;
       max-width: 1200px;
       height: 800px;
       padding-top: 60px; }
-  /* line 248, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .fullSizeCard .bottom {
     width: 100%;
     max-width: 1200px;
     padding: 10px 0px 60px 0px;
     margin: 0 auto; }
-    /* line 253, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .fullSizeCard .bottom .title {
       width: 100%;
       text-align: left;
       padding: 5px;
       text-transform: none; }
-    /* line 259, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .fullSizeCard .bottom .description {
       width: 100%;
       font-size: 1.5rem;
       text-align: left;
       padding: 5px; }
 
-/* line 268, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
 .nonFullSizeCardSection {
   width: 100%;
   max-width: 1680px;
   padding: 20px 0px;
   text-align: center;
   display: flex; }
-  /* line 274, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .nonFullSizeCardSection .nonFullSizeCard {
     font-size: 1rem;
     padding: 20px;
@@ -269,110 +241,251 @@ p {
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box; }
-    /* line 282, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .nonFullSizeCardSection .nonFullSizeCard .top {
       height: auto;
       width: 100%; }
-      /* line 285, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .nonFullSizeCardSection .nonFullSizeCard .top iframe {
         width: 100%;
         max-width: 1200px;
         height: 800px;
         padding-top: 60px; }
-      /* line 291, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .nonFullSizeCardSection .nonFullSizeCard .top img {
         width: 100%;
         height: 100%; }
-    /* line 296, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .nonFullSizeCardSection .nonFullSizeCard .bottom {
       width: 100%;
       max-width: 1200px;
       padding: 10px 0px 60px 0px;
       margin: 0 auto; }
-      /* line 301, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .nonFullSizeCardSection .nonFullSizeCard .bottom .title {
         font-size: 3rem;
         width: 100%;
         text-align: left;
         padding: 5px;
         text-transform: none; }
-      /* line 308, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .nonFullSizeCardSection .nonFullSizeCard .bottom .description {
         width: 100%;
         font-size: 1.5rem;
         text-align: left;
         padding: 5px; }
 
-/* line 334, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
+.topPromoBar {
+  background: #366;
+  width: 100%;
+  height: auto;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  text-transform: uppercase; }
+  .topPromoBar a {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block; }
+    .topPromoBar a span {
+      color: white;
+      text-align: center; }
+  .topPromoBar .btnClose {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: block;
+    box-sizing: border-box; }
+    .topPromoBar .btnClose button {
+      height: 16px;
+      width: 16px;
+      text-indent: -9999px;
+      border: 0 none; }
+
+.intro {
+  background-image: url("../img/nice_snow.png");
+  background-repeat: repeat;
+  width: 100%;
+  height: auto;
+  padding: 5rem 1rem;
+  margin: 0; }
+  .intro img {
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
+  .intro h3 {
+    padding: .5em; }
+  .intro p {
+    max-width: 750px;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 0;
+    color: #036; }
+  .intro .splitParagraph {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+    .intro .splitParagraph p {
+      padding: 10px;
+      max-width: 600px;
+      flex-basis: 50%;
+      flex-flow: row wrap; }
+  .intro ul {
+    list-style-type: disc;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 10px 0px; }
+  .intro ol {
+    list-style-type: decimal;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 10px 0px; }
+    .intro ol li {
+      margin-left: 20px; }
+  .intro .inlineLink {
+    padding: 0;
+    color: #036; }
+
+.containedPageBreak .splitParagraph {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex; }
+  .containedPageBreak .splitParagraph .half {
+    padding: 10px;
+    max-width: 600px;
+    flex-basis: 50%;
+    flex-flow: row wrap; }
+    .containedPageBreak .splitParagraph .half ol {
+      list-style-type: decimal; }
+.containedPageBreak .upper {
+  text-transform: uppercase; }
+
+.productLineup {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .productLineup .third {
+    flex-basis: 33% !important; }
+  .productLineup .product {
+    flex-basis: 50%;
+    align-content: flex-start;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px; }
+    .productLineup .product img {
+      align-content: flex-start;
+      flex-basis: 100%;
+      width: 100%;
+      height: 100%; }
+    .productLineup .product .description {
+      display: flex;
+      width: auto;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: flex-start; }
+      .productLineup .product .description .title {
+        width: 100%;
+        flex-flow: row wrap;
+        display: inline-block;
+        font-size: 1.5rem;
+        flex-basis: auto;
+        flex-grow: 0;
+        text-align: center; }
+      .productLineup .product .description .descriptionText {
+        flex-basis: 50%;
+        flex-flow: row wrap;
+        display: inline-block;
+        font-size: 1.5rem;
+        flex-basis: auto;
+        flex-grow: 0;
+        text-align: left;
+        font-weight: bold; }
+      .productLineup .product .description .price {
+        width: 100%;
+        flex-flow: row wrap;
+        display: inline-block;
+        font-size: 1.5rem;
+        flex-basis: auto;
+        flex-grow: 0;
+        text-align: center; }
+      .productLineup .product .description .was {
+        width: 50%;
+        flex-flow: row wrap;
+        display: inline-block;
+        font-size: 1.5rem;
+        flex-basis: auto;
+        flex-grow: 0;
+        text-align: right;
+        justify-content: flex-end;
+        text-decoration: line-through;
+        padding-right: 10px; }
+      .productLineup .product .description .now {
+        width: 50%;
+        flex-flow: row wrap;
+        display: inline-block;
+        font-size: 1.5rem;
+        flex-basis: auto;
+        flex-grow: 0;
+        text-align: left;
+        justify-content: flex-end;
+        padding-left: 10px;
+        color: red; }
+
 .color {
   display: flex;
   flex-flow: row wrap;
   padding: 20px;
   background-color: white; }
-  /* line 339, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
   .color .colorBox {
     flex-basis: 50%;
     background-color: white;
     height: auto;
     padding: 20px;
     display: flex; }
-    /* line 345, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .whiteAndNavy, .color .colorBox .whiteAndBlack, .color .colorBox .orange, .color .colorBox .rust {
       padding: 20px;
       height: 400px;
       flex-basis: 100%; }
-    /* line 350, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox p, .color .colorBox .lightGrey, .color .colorBox .mediumGrey, .color .colorBox .darkGrey, .color .colorBox .navy, .color .colorBox .turquoise, .color .colorBox .black, .color .colorBox .whiteAndNavy, .color .colorBox .whiteAndBlack, .color .colorBox .orange, .color .colorBox .rust {
       margin: 0 auto;
       color: white;
       font-size: 32px;
       padding: 10px; }
-    /* line 356, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .wHover {
       padding: 20px;
       height: 400px;
       flex-basis: 50%;
       flex-flow: row nowrap; }
-    /* line 362, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .whiteAndNavy {
       background-color: white;
       border-style: solid;
       border-color: #036;
       border-width: 4px; }
-      /* line 367, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .color .colorBox .whiteAndNavy p {
         color: #036; }
-    /* line 372, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .whiteAndBlack {
       background-color: white;
       border-style: solid;
       border-color: black;
       border-width: 4px; }
-      /* line 377, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
       .color .colorBox .whiteAndBlack p {
         color: black; }
-    /* line 382, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .lightGrey {
       background-color: #ccc; }
-    /* line 385, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .mediumGrey {
       background-color: #666; }
-    /* line 388, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .darkGrey {
       background-color: #333; }
-    /* line 391, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .navy {
       background-color: #036; }
-    /* line 394, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .turquoise {
       background-color: #366; }
-    /* line 397, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .orange {
       background-color: #c30; }
-    /* line 400, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .rust {
       background-color: #a52900; }
-    /* line 403, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/style.scss */
     .color .colorBox .black {
       background-color: #000; }
 

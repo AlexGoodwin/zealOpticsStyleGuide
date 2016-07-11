@@ -1,0 +1,76 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+/* line 14, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: #fff; }
+  /* line 25, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+  body .productLineup {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap; }
+    /* line 35, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+    body .productLineup .product {
+      flex-basis: 50%;
+      align-content: flex-start;
+      box-sizing: border-box;
+      display: block;
+      padding: 20px; }
+      /* line 41, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+      body .productLineup .product img {
+        align-content: flex-start;
+        flex-basis: 100%;
+        width: 100%;
+        height: 100%; }
+      /* line 47, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+      body .productLineup .product .description {
+        display: flex;
+        width: auto;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start; }
+        /* line 54, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+        body .productLineup .product .description .descriptionText {
+          flex-basis: 50%;
+          flex-flow: row wrap;
+          display: inline-block;
+          font-size: 1.5rem;
+          flex-basis: auto;
+          flex-grow: 0;
+          text-align: left; }
+        /* line 64, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+        body .productLineup .product .description .strike {
+          text-decoration: line-through; }
+        /* line 68, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+        body .productLineup .product .description .descriptionTextStart {
+          width: 50%;
+          flex-flow: row wrap;
+          display: inline-block;
+          font-size: 1.5rem;
+          flex-basis: auto;
+          flex-grow: 0;
+          text-align: left; }
+        /* line 78, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/productLineup.scss */
+        body .productLineup .product .description .descriptionTextEnd {
+          width: 50%;
+          flex-flow: row wrap;
+          display: inline-block;
+          font-size: 1.5rem;
+          flex-basis: auto;
+          flex-grow: 0;
+          text-align: right;
+          justify-content: flex-end; }
+
+/*# sourceMappingURL=productLineup.css.map */

@@ -19,11 +19,11 @@ body{
     letter-spacing: .025em;
     color: $darkGrey;
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 16px;
 
     .miniHeroNoLinkNoSmallText{
-//        background:#366;
-        background: url("../img/nice_snow.png");
+        background:$white;
+//        background: url("../img/nice_snow.png");
         width:100%;
         height:auto;
 //        z-index: 100;

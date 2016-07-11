@@ -1,0 +1,57 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+@import 'style.css';
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Interstate", Helvetica, Arial, sans-serif;
+    letter-spacing: .025em;
+    color: $darkGrey;
+    line-height: 1.5;
+    font-size: 16px;
+    .overlayButton{
+        background:white;
+        color:$navy;
+        padding:1em 2em;
+        margin: 30px auto;
+        text-align:center;                
+        display: table;
+        width:auto;
+        font-size:1em;
+        border-style: solid;
+        border-color: $navy;
+        border-width: 2px;
+        transition: border 0.5s ease;
+        transition: color 0.5s ease;
+    }
+
+    .overlayButton:hover{
+        border-color: $black;
+        color:$black;
+    }
+
+    .overlayButton:active{
+        border-color: $black;
+        color:$black;
+    }
+    
+    .left{
+        margin-left:30px;
+    }
+    
+    .right{
+        margin-right:30px;
+    }
+}

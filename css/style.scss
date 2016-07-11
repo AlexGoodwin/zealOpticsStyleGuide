@@ -14,19 +14,25 @@ $black: #000;
 body {
     padding: 0;
     margin: 0;
-    background: $darkGrey;
+    background: white;
+    background-color: white;
     box-sizing: border-box;
     font-family: "Interstate", Helvetica, Arial, sans-serif;
     letter-spacing: .025em;
     color: $darkGrey;
     line-height: 1.5;
     font-size: 16px;
+    width:100%;
 }
 
 * {
     box-sizing: inherit;
 }
 
+.patternBG{
+    background-image:url("../img/nice_snow.png");
+    background-repeat: repeat;
+}
 .main {
     width: 100%;
     max-width:1680px;
@@ -111,28 +117,24 @@ h3 {
 
 h4 {
     font-weight: bold;
-    text-transform: lowercase;
     font-size: 2em;
     letter-spacing: .05em;
 }
 
 h5 {
     font-weight: normal;
-    text-transform: lowercase;
     font-size: 2em;
     letter-spacing: .025em;
 }
 
 h6 {
     font-weight: bold;
-    text-transform: lowercase;
     font-size: 1em;
     letter-spacing: .025em;
 }
 
 h7 {
     font-weight: normal;
-    text-transform: lowercase;
     font-size: 1em;
     letter-spacing: 0;
 }
@@ -150,6 +152,16 @@ p{
     margin:0 auto;
     text-align:left;
     padding:1em;
+    .eighteen{
+        font-size: 18px;
+    }
+}
+
+.center{
+    text-align:center;
+}
+.right{
+    text-align:right;
 }
 
 .footerText{
@@ -176,7 +188,7 @@ p{
     background:#c30;
     color:white;
     padding:1em 2em;
-    margin: 30px auto;
+    margin: 30px auto 0px auto;
     text-align:center;                
     display: table;
     width:auto;
@@ -313,23 +325,218 @@ p{
             }
         }
     } 
+}
+ 
+.topPromoBar{
+    background:#366;
+    width:100%;
+    height:auto;
+//        z-index: 100;
+    font-family: "Interstate", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    a{
+        width:auto;
+        text-align:center;
+        margin:0 auto;
+        display:block;
 
-        
-//        .nonFullSizeCard{
-//            font-size: 0;
-//            padding: 20px;
-////            margin: 10px;
-//            display: inline-block;
-//            vertical-align: top;
-//            width:50%;
-//            box-sizing: border-box;
-//            
-//            img{
-//                width: 100%;
-//                height: 100%;
-//            }
-//        }
+        span{
+            color:white;
+//                padding:1em;
+            text-align:center;
+        }
     }
+    .btnClose{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        display:block;
+        box-sizing:border-box;
+        button{
+//                background: url("../images/btn-promobanner.png") top left no-repeat;
+            height: 16px;
+            width: 16px;
+            text-indent: -9999px;
+            border: 0 none;
+        }
+    }
+}
+
+.intro{
+    background-image:url("../img/nice_snow.png");
+    background-repeat: repeat;
+    width:100%;
+    height:auto;
+    padding: 5rem 1rem;
+    margin:0;
+    img{
+        margin:0 auto;
+        display:block;
+//            padding:30px;
+        text-align:center;
+    }
+    h3{
+        padding:.5em;
+    }
+    p{
+        max-width:750px;
+        width:100%;
+        text-align:left;
+        margin:0 auto;
+        display:block;
+        padding:5px 0;
+        color:$navy;
+    }
+    .splitParagraph{
+        max-width:1200px;
+        width:100%;
+        margin:0 auto;
+        display:flex;
+        p{
+            padding:10px;
+            max-width:600px;
+            flex-basis:50%;
+            flex-flow:row wrap;
+        }
+    }
+    ul{
+        list-style-type: disc;
+        max-width:750px;
+        margin:0 auto;
+        padding:10px 0px;
+    }    
+    
+    ol{
+        list-style-type: decimal;
+        max-width:750px;
+        margin:0 auto;
+        padding:10px 0px;
+        li{
+            margin-left:20px;
+        }
+    }
+    
+    .inlineLink{
+        padding:0;
+        color:$navy;
+    }
+
+}
+
+.containedPageBreak{
+    .splitParagraph{
+        max-width:1200px;
+        width:100%;
+        margin:0 auto;
+        display:flex;
+        .half{
+            padding:10px;
+            max-width:600px;
+            flex-basis:50%;
+            flex-flow:row wrap;
+            ol{
+                list-style-type:decimal;
+            }
+        }
+    }
+    .upper{
+        text-transform:uppercase;
+    }
+}
+
+.productLineup{
+    width: 100%;
+    text-align: center;
+    background-color: $white;
+//        font-size: 0;
+    margin: 0 auto;
+//        max-width:1680px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    .third{
+        flex-basis: 33% !important;
+    }
+    .product{
+        flex-basis:50%;
+        align-content: flex-start;
+        box-sizing: border-box;
+        display:block;
+        padding:20px;
+        img{
+            align-content: flex-start;
+            flex-basis: 100%;
+            width:100%;
+            height:100%;
+        }
+        .description{
+            display:flex;
+            width:auto;
+            flex-flow:row wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            
+            .title{
+                width: 100%;
+                flex-flow:row wrap;
+                display:inline-block;
+                font-size: 1.5rem;
+                flex-basis:auto;
+                flex-grow:0;
+                text-align:center;
+            }
+
+            .descriptionText{
+                flex-basis: 50%;
+                flex-flow:row wrap;
+                display:inline-block;
+                font-size: 1.5rem;
+                flex-basis:auto;
+                flex-grow:0;
+                text-align:left;
+                font-weight: bold;
+            } 
+
+
+            .price{
+                width: 100%;
+                flex-flow:row wrap;
+                display:inline-block;
+                font-size: 1.5rem;
+                flex-basis:auto;
+                flex-grow:0;
+                text-align:center;
+            }                
+
+            .was{
+                width: 50%;
+                flex-flow:row wrap;
+                display:inline-block;
+                font-size: 1.5rem;
+                flex-basis:auto;
+                flex-grow:0;
+                text-align:right;
+                justify-content:flex-end;
+                text-decoration: line-through;
+                padding-right:10px;
+            }         
+            
+            .now{
+                width: 50%;
+                flex-flow:row wrap;
+                display:inline-block;
+                font-size: 1.5rem;
+                flex-basis:auto;
+                flex-grow:0;
+                text-align:left;
+                justify-content:flex-end;
+                padding-left: 10px;
+                color:red;
+            }
+        }
+    }
+}
 
 .color{
         display:flex;
@@ -405,7 +612,8 @@ p{
             }
         }
     }
-
+    
+    
 
 
     

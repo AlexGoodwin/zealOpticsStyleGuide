@@ -1,0 +1,54 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+@import 'style.css';
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Interstate", Helvetica, Arial, sans-serif;
+    letter-spacing: .025em;
+    color: $darkGrey;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color:$white;
+    .standAloneButton{
+        background:#c30;
+        color:white;
+        padding:1em 2em;
+        margin: 30px auto;
+        text-align:center;                
+        display: table;
+        width:auto;
+        font-size:1em;
+        transition: background-color 0.5s ease;
+    }
+
+    .standAloneButton:hover{
+        background-color: #b20;
+        color:white;
+    }
+
+    .standAloneButton:active{
+        background-color: #b20;
+        color:white;
+    }
+    
+    .left{
+        margin-left:30px;
+    }
+    
+    .right{
+        margin-right:30px;
+    }
+}
