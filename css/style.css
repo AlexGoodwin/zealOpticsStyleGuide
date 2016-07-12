@@ -320,9 +320,9 @@ p {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    display: flex; }
+    display: flex;
+    padding: 10px; }
     .intro .splitParagraph p {
-      padding: 10px;
       max-width: 600px;
       flex-basis: 50%;
       flex-flow: row wrap; }
@@ -346,7 +346,9 @@ p {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  display: flex; }
+  display: flex;
+  padding: 10px;
+  padding-left: 40px; }
   .containedPageBreak .splitParagraph .half {
     padding: 10px;
     max-width: 600px;
@@ -366,10 +368,8 @@ p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center; }
-  .productLineup .third {
-    flex-basis: 33% !important; }
   .productLineup .product {
-    flex-basis: 50%;
+    flex-basis: 33.33%;
     align-content: flex-start;
     box-sizing: border-box;
     display: block;
@@ -379,6 +379,8 @@ p {
       flex-basis: 100%;
       width: 100%;
       height: 100%; }
+    .productLineup .product .featured {
+      flex-basis: 50%; }
     .productLineup .product .description {
       display: flex;
       width: auto;
@@ -389,15 +391,15 @@ p {
         width: 100%;
         flex-flow: row wrap;
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.5em;
         flex-basis: auto;
         flex-grow: 0;
         text-align: center; }
       .productLineup .product .description .descriptionText {
-        flex-basis: 50%;
+        flex-basis: 33.33%;
         flex-flow: row wrap;
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.5em;
         flex-basis: auto;
         flex-grow: 0;
         text-align: left;
@@ -406,7 +408,7 @@ p {
         width: 100%;
         flex-flow: row wrap;
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.5em;
         flex-basis: auto;
         flex-grow: 0;
         text-align: center; }
@@ -414,7 +416,7 @@ p {
         width: 50%;
         flex-flow: row wrap;
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.5em;
         flex-basis: auto;
         flex-grow: 0;
         text-align: right;
@@ -425,7 +427,7 @@ p {
         width: 50%;
         flex-flow: row wrap;
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.5em;
         flex-basis: auto;
         flex-grow: 0;
         text-align: left;
@@ -488,5 +490,29 @@ p {
       background-color: #a52900; }
     .color .colorBox .black {
       background-color: #000; }
+
+@media screen and (max-width: 991px) and (min-width: 500px) {
+  body {
+    font-size: 12px; }
+    body p {
+      font-size: 14px; }
+    body .productLineup .product {
+      flex-basis: 50%; }
+    body .productLineup .featured {
+      flex-basis: 100%; }
+    body .main .containedPageBreak .splitParagraph .half {
+      flex-basis: 100%; } }
+@media screen and (max-width: 499px) {
+  body {
+    font-size: 10px; }
+    body p {
+      font-size: 12px; }
+    body .productLineup .product {
+      flex-basis: 50%; }
+    body .productLineup .featured {
+      flex-basis: 100%; }
+    body .main .containedPageBreak .splitParagraph .half {
+      flex-basis: 100%;
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

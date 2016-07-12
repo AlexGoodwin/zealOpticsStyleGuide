@@ -392,8 +392,8 @@ p{
         width:100%;
         margin:0 auto;
         display:flex;
+        padding:10px;
         p{
-            padding:10px;
             max-width:600px;
             flex-basis:50%;
             flex-flow:row wrap;
@@ -429,6 +429,8 @@ p{
         width:100%;
         margin:0 auto;
         display:flex;
+        padding:10px;
+        padding-left:40px;
         .half{
             padding:10px;
             max-width:600px;
@@ -455,11 +457,8 @@ p{
     display: flex;
     flex-flow:row wrap;
     justify-content: center;
-    .third{
-        flex-basis: 33% !important;
-    }
     .product{
-        flex-basis:50%;
+        flex-basis:33.33%;
         align-content: flex-start;
         box-sizing: border-box;
         display:block;
@@ -469,6 +468,9 @@ p{
             flex-basis: 100%;
             width:100%;
             height:100%;
+        }
+        .featured{
+            flex-basis:50%;
         }
         .description{
             display:flex;
@@ -481,17 +483,17 @@ p{
                 width: 100%;
                 flex-flow:row wrap;
                 display:inline-block;
-                font-size: 1.5rem;
+                font-size: 1.5em;
                 flex-basis:auto;
                 flex-grow:0;
                 text-align:center;
             }
 
             .descriptionText{
-                flex-basis: 50%;
+                flex-basis: 33.33%;
                 flex-flow:row wrap;
                 display:inline-block;
-                font-size: 1.5rem;
+                font-size: 1.5em;
                 flex-basis:auto;
                 flex-grow:0;
                 text-align:left;
@@ -503,7 +505,7 @@ p{
                 width: 100%;
                 flex-flow:row wrap;
                 display:inline-block;
-                font-size: 1.5rem;
+                font-size: 1.5em;
                 flex-basis:auto;
                 flex-grow:0;
                 text-align:center;
@@ -513,7 +515,7 @@ p{
                 width: 50%;
                 flex-flow:row wrap;
                 display:inline-block;
-                font-size: 1.5rem;
+                font-size: 1.5em;
                 flex-basis:auto;
                 flex-grow:0;
                 text-align:right;
@@ -526,7 +528,7 @@ p{
                 width: 50%;
                 flex-flow:row wrap;
                 display:inline-block;
-                font-size: 1.5rem;
+                font-size: 1.5em;
                 flex-basis:auto;
                 flex-grow:0;
                 text-align:left;
@@ -613,6 +615,58 @@ p{
         }
     }
     
+@media screen and (max-width: 991px) and (min-width: 500px) {
+    body{
+        p{
+            font-size:14px;
+        }
+        font-size:12px;   
+        .productLineup{
+            .product{
+                flex-basis:50%;
+            }
+            .featured{
+                flex-basis:100%;
+            }
+        }
+        .main{
+            .containedPageBreak{
+                .splitParagraph{
+                    .half{
+                        flex-basis:100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 499px) {
+    body{
+        p{
+            font-size:12px;
+        }
+        font-size:10px;
+        .productLineup{
+            .product{
+                flex-basis:50%;
+            }
+            .featured{
+                flex-basis:100%;
+            }
+        }
+        .main{
+            .containedPageBreak{
+                .splitParagraph{
+                    .half{
+                        flex-basis:100%;
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+}
     
 
 
