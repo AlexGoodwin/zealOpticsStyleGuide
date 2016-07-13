@@ -1,0 +1,69 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+@import url(style.css);
+/* line 17, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+body .beforeAfterContainer {
+  width: 100%;
+  height: auto;
+  justify-content: center; }
+  /* line 21, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  body .beforeAfterContainer .lens {
+    display: flex;
+    height: 800px;
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    flex-flow: row wrap;
+    align-content: center; }
+    /* line 34, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    body .beforeAfterContainer .lens h5 {
+      text-shadow: 0px 0px 7px #333;
+      z-index: 10;
+      color: white;
+      display: block;
+      align-self: center;
+      text-transform: uppercase;
+      flex-basis: 100%;
+      padding: 5px 0px; }
+    /* line 45, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    body .beforeAfterContainer .lens h6 {
+      text-shadow: 0px 0px 7px #333;
+      z-index: 10;
+      color: white;
+      display: block;
+      align-self: center;
+      text-transform: uppercase;
+      flex-basis: 100%;
+      padding: 5px 0px; }
+    /* line 55, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    body .beforeAfterContainer .lens p {
+      text-shadow: 0px 0px 7px #333;
+      z-index: 10;
+      color: white;
+      display: block;
+      align-self: center;
+      max-width: 50%;
+      flex-basis: 100%;
+      text-align: center; }
+  /* line 66, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  body .beforeAfterContainer .left {
+    background-image: url(../img/beforeEllume.jpg);
+    background-size: cover; }
+  /* line 70, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  body .beforeAfterContainer .right {
+    background-image: url(../img/afterEllume.jpg);
+    background-size: cover; }
+  /* line 74, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  body .beforeAfterContainer .buttonBoxOverlay {
+    width: 345px;
+    height: 242px;
+    background-color: #fff;
+    margin-top: -521px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 11;
+    position: fixed; }
+
+/*# sourceMappingURL=lensBeforeAfter.css.map */

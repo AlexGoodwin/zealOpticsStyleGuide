@@ -1,0 +1,59 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+@import 'style.css';
+
+body{
+    .intro{
+        background-image:url("../img/nice_snow.png");
+        background-repeat: repeat;
+        width:100%;
+        height:auto;
+        padding: 5rem 1rem;
+        margin:0;
+        img{
+            margin:0 auto;
+            display:block;
+    //            padding:30px;
+            text-align:center;
+        }
+        h3{
+            padding:.5em;
+        }
+        p{
+            max-width:750px;
+            width:100%;
+            text-align:left;
+            margin:0 auto;
+            display:block;
+            padding:5px 0;
+            color:$navy;
+        }
+        .splitParagraph{
+            max-width:1200px;
+            width:100%;
+            margin:0 auto;
+            display:flex;
+            padding:10px;
+            p{
+                max-width:600px;
+                flex-basis:50%;
+                flex-flow:row wrap;
+            }
+        }
+        .inlineLink{
+            padding:0;
+            color:$navy;
+        }
+
+    }
+}

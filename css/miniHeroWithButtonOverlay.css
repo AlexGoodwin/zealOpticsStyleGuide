@@ -1,0 +1,28 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+@import url(style.css);
+/* line 16, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/miniHeroWithButtonOverlay.scss */
+body .miniHeroContainer {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/afterEllume.jpg);
+  padding: 175px 0;
+  background-size: cover; }
+
+/* line 23, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/miniHeroWithButtonOverlay.scss */
+body h6 {
+  text-transform: uppercase;
+  color: white;
+  padding: 0 0 30px 0; }
+
+/* line 28, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/miniHeroWithButtonOverlay.scss */
+body h3 {
+  color: white;
+  padding: 0; }
+
+/* line 32, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/miniHeroWithButtonOverlay.scss */
+body .overlayButton {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=miniHeroWithButtonOverlay.css.map */

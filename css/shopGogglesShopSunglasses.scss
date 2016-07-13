@@ -1,0 +1,78 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+@import 'style.css';
+
+body{
+    background-color:yellow !important;
+    .shopGogglesShopSunglasses{
+        width:100%;
+        height:auto;
+        justify-content:center;
+        display:flex;
+        padding:0;
+        .half{
+            height:auto;
+//            width:50%;
+            float:left;
+            margin:0;
+            padding:0;
+            flex-flow:row wrap;
+            align-content:center;
+            flex-basis:50%;
+            
+            img{
+                width:100%;
+                
+            }
+            h3{
+                z-index: 10;
+                color:$navy;
+                display:block;
+                align-self:center;
+                text-transform:uppercase;
+                flex-basis:100%;
+                padding:5px 0px;
+            }            
+            
+            h6{
+                z-index: 10;
+                color:$black;
+                display:block;
+                align-self:center;
+                text-transform:uppercase;
+                flex-basis:100%;
+                padding:5px 0px;
+            }
+            p{
+                z-index: 10;
+                color:white;
+                display:block;
+                align-self:center;
+                max-width:50%;
+                flex-basis:100%;
+                text-align:center;
+            }
+        }
+
+        .buttonBoxOverlay{
+            width:345px;
+            height:242px;
+            background-color:$white;
+            margin-top:-521px;
+            margin:0 auto;
+            text-align:center;
+            z-index: 11;
+            position: fixed;
+        }
+    }
+}

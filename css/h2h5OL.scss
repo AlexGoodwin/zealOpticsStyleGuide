@@ -1,0 +1,39 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+@import 'style.css';
+
+body{
+    //contained= set max width
+    .containedPageBreak{
+    .splitParagraph{
+        max-width:1200px;
+        width:100%;
+        margin:0 auto;
+        display:flex;
+        padding:10px;
+        padding-left:40px;
+        .half{
+            padding:10px;
+            max-width:600px;
+            flex-basis:50%;
+            flex-flow:row wrap;
+            ol{
+                list-style-type:decimal;
+            }
+        }
+    }
+    .upper{
+        text-transform:uppercase;
+    }
+}
+}

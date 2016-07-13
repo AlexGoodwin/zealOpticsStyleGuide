@@ -9,7 +9,7 @@ $rust: #a52900;
 $black: #000;
 @import 'reset.css';
 @import 'typography.css';
-@import 'color.css';
+@import 'standAloneButton.css';
 
 body{
     
@@ -77,32 +77,6 @@ body{
                     flex-grow:0;
                     text-align:center;
                 }                
-
-                .was{
-                    width: 50%;
-                    flex-flow:row wrap;
-                    display:inline-block;
-                    font-size: 1.5em;
-                    flex-basis:auto;
-                    flex-grow:0;
-                    text-align:right;
-                    justify-content:flex-end;
-                    text-decoration: line-through;
-                    padding-right:10px;
-                }         
-
-                .now{
-                    width: 50%;
-                    flex-flow:row wrap;
-                    display:inline-block;
-                    font-size: 1.5em;
-                    flex-basis:auto;
-                    flex-grow:0;
-                    text-align:left;
-                    justify-content:flex-end;
-                    padding-left: 10px;
-                    color:red;
-                }
             }
         }
     }

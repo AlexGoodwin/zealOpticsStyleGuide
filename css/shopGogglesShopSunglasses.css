@@ -1,0 +1,65 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+@import url(style.css);
+/* line 15, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+body {
+  background-color: yellow !important; }
+  /* line 17, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+  body .shopGogglesShopSunglasses {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    padding: 0; }
+    /* line 23, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+    body .shopGogglesShopSunglasses .half {
+      height: auto;
+      float: left;
+      margin: 0;
+      padding: 0;
+      flex-flow: row wrap;
+      align-content: center;
+      flex-basis: 50%; }
+      /* line 33, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+      body .shopGogglesShopSunglasses .half img {
+        width: 100%; }
+      /* line 37, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+      body .shopGogglesShopSunglasses .half h3 {
+        z-index: 10;
+        color: #036;
+        display: block;
+        align-self: center;
+        text-transform: uppercase;
+        flex-basis: 100%;
+        padding: 5px 0px; }
+      /* line 47, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+      body .shopGogglesShopSunglasses .half h6 {
+        z-index: 10;
+        color: #000;
+        display: block;
+        align-self: center;
+        text-transform: uppercase;
+        flex-basis: 100%;
+        padding: 5px 0px; }
+      /* line 56, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+      body .shopGogglesShopSunglasses .half p {
+        z-index: 10;
+        color: white;
+        display: block;
+        align-self: center;
+        max-width: 50%;
+        flex-basis: 100%;
+        text-align: center; }
+    /* line 67, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/shopGogglesShopSunglasses.scss */
+    body .shopGogglesShopSunglasses .buttonBoxOverlay {
+      width: 345px;
+      height: 242px;
+      background-color: #fff;
+      margin-top: -521px;
+      margin: 0 auto;
+      text-align: center;
+      z-index: 11;
+      position: fixed; }
+
+/*# sourceMappingURL=shopGogglesShopSunglasses.css.map */

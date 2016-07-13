@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+@import url(style.css);
+/* line 18, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/h2h5OL.scss */
+body .containedPageBreak .splitParagraph {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  padding-left: 40px; }
+  /* line 25, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/h2h5OL.scss */
+  body .containedPageBreak .splitParagraph .half {
+    padding: 10px;
+    max-width: 600px;
+    flex-basis: 50%;
+    flex-flow: row wrap; }
+    /* line 30, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/h2h5OL.scss */
+    body .containedPageBreak .splitParagraph .half ol {
+      list-style-type: decimal; }
+
+/* line 35, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/h2h5OL.scss */
+body .containedPageBreak .upper {
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=h2h5OL.css.map */
