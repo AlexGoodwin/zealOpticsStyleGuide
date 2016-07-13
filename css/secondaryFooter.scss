@@ -1,0 +1,127 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+@import 'style.css';
+
+body{
+    .secondaryFooter{
+        width:100%;
+        height:auto;
+        justify-content:center;
+//        display:flex;
+        padding:0;
+        background-image:url(../img/footer-pattern.png);
+        background-repeat:repeat;
+        .serviceLinks{
+            height:auto;
+            padding:120px 0;
+            width:100%;
+            flex-basis:100%;
+            display:inline-block;
+            .third{
+//                padding:30px 0;
+                height:auto;
+                width:33.33%;
+                float:left;
+                margin:0;
+                flex-flow:row wrap;
+                align-content:center;
+                flex-basis:%;
+                display:flex;
+                a{
+                    margin:5px auto;
+                }
+                img{
+                    padding-top:5px;
+                    width:100%;
+
+
+                }
+                h4{
+                    z-index: 10;
+                    color:$white;
+                    display:block;
+                    align-self:center;
+                    text-transform:uppercase;
+                    flex-basis:100%;
+                    padding:5px 0px;
+                }            
+
+                h6{
+                    z-index: 10;
+                    color:$black;
+                    display:block;
+                    align-self:center;
+                    text-transform:uppercase;
+                    flex-basis:100%;
+                    padding:5px 0px;
+                }
+                p{
+                    z-index: 10;
+                    color:white;
+                    display:block;
+                    align-self:center;
+                    flex-basis:100%;
+                    text-align:center;
+                    text-transform: uppercase;
+                }
+                form{
+                    margin:0 auto;
+                    display:flex;
+                    input{
+                        color:$navy;
+                        padding:1em 0;
+                        margin:0;
+                    }
+                    .enterEmail{
+                         font-family: "Interstate", Helvetica, Arial, sans-serif;
+                        font-style: italic;
+                        padding-left:1em;
+                        color:white;
+                        background:rgba(0,0,0,0);
+                        display:block;
+//                        width:5em;
+                        flex-flow:row wrap;
+                    }
+                    .submitEmail{
+                        background:#fff url("../img/footer-joinfamily-submit.gif") center center no-repeat;
+                        background-color:$white;
+                        z-index: 10;
+                        color:white;
+                         font-size:0;
+                        height:3rem;
+                        width:3rem;
+                        display:block;
+                        flex-flow:row wrap;
+    
+                    }
+                }
+                .invalidEmail{
+                    text-transform:uppercase;
+                    font-weight:bold;
+                    padding: 10px 0 0 0;
+                }
+            }
+        }
+        .socialLinks{
+            height:40px;
+            display:flex;
+            vertical-align: bottom;
+            justify-content: center;
+            flex-basis:100%;
+            padding-bottom:80px;
+            .icons{
+                padding:0px 15px;
+            }
+        }
+    }
+}
