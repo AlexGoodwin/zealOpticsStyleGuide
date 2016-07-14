@@ -1,10 +1,10 @@
 @import url(style.css);
-/* line 13, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+/* line 13, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
 body .beforeAfterContainer {
   width: 100%;
   height: auto;
   justify-content: center; }
-  /* line 17, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  /* line 17, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
   body .beforeAfterContainer .lens {
     display: flex;
     height: 700px;
@@ -14,7 +14,7 @@ body .beforeAfterContainer {
     padding: 0;
     flex-flow: row wrap;
     align-content: center; }
-    /* line 30, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 30, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterContainer .lens h5 {
       text-shadow: 0px 0px 7px #333;
       z-index: 10;
@@ -24,7 +24,7 @@ body .beforeAfterContainer {
       text-transform: uppercase;
       flex-basis: 100%;
       padding: 5px 0px; }
-    /* line 41, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 41, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterContainer .lens h6 {
       text-shadow: 0px 0px 7px #333;
       z-index: 10;
@@ -34,7 +34,7 @@ body .beforeAfterContainer {
       text-transform: uppercase;
       flex-basis: 100%;
       padding: 5px 0px; }
-    /* line 51, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 51, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterContainer .lens p {
       text-shadow: 0px 0px 7px #333;
       z-index: 10;
@@ -44,16 +44,16 @@ body .beforeAfterContainer {
       max-width: 50%;
       flex-basis: 100%;
       text-align: center; }
-  /* line 62, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  /* line 62, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
   body .beforeAfterContainer .left {
     background-image: url(../img/beforeEllume.jpg);
     background-size: cover; }
-  /* line 66, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  /* line 66, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
   body .beforeAfterContainer .right {
     background-image: url(../img/afterEllume.jpg);
     background-size: cover; }
 
-/* line 83, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+/* line 83, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
 body .lensPreviews {
   width: 100%;
   height: auto;
@@ -61,11 +61,11 @@ body .lensPreviews {
   background-image: url(../img/decorative-texture-1.png);
   display: flex;
   justify-content: center; }
-  /* line 90, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  /* line 90, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
   body .lensPreviews .lensThumbnail {
     padding: 0px 110px 0 110px;
     display: inline-block; }
-    /* line 93, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 93, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .lensPreviews .lensThumbnail .lensThumbnailImage {
       border-radius: 30px;
       height: 29px;
@@ -74,12 +74,12 @@ body .lensPreviews {
       margin: 0 auto;
       display: block;
       border: solid #000; }
-    /* line 103, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 103, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .lensPreviews .lensThumbnail .slideArrow {
       text-align: center;
       display: block;
       margin: 0 auto; }
-    /* line 108, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 108, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .lensPreviews .lensThumbnail p {
       font-weight: bold;
       text-transform: uppercase; }
