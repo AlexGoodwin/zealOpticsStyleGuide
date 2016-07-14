@@ -2,7 +2,7 @@
 @import url(typography.css);
 @import url(color.css);
 @import url(style.css);
-/* line 16, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+/* line 16, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
 body .secondaryFooter {
   width: 100%;
   height: auto;
@@ -10,14 +10,14 @@ body .secondaryFooter {
   padding: 0;
   background-image: url(../img/footer-pattern.png);
   background-repeat: repeat; }
-  /* line 24, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+  /* line 24, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
   body .secondaryFooter .serviceLinks {
     height: auto;
     padding: 120px 0;
     width: 100%;
     flex-basis: 100%;
     display: inline-block; }
-    /* line 30, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+    /* line 30, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
     body .secondaryFooter .serviceLinks .third {
       height: auto;
       width: 33.33%;
@@ -27,14 +27,14 @@ body .secondaryFooter {
       align-content: center;
       flex-basis: %;
       display: flex; }
-      /* line 40, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+      /* line 40, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
       body .secondaryFooter .serviceLinks .third a {
         margin: 5px auto; }
-      /* line 43, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+      /* line 43, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
       body .secondaryFooter .serviceLinks .third img {
         padding-top: 5px;
         width: 100%; }
-      /* line 49, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+      /* line 49, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
       body .secondaryFooter .serviceLinks .third h4 {
         z-index: 10;
         color: #fff;
@@ -43,7 +43,7 @@ body .secondaryFooter {
         text-transform: uppercase;
         flex-basis: 100%;
         padding: 5px 0px; }
-      /* line 59, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+      /* line 59, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
       body .secondaryFooter .serviceLinks .third h6 {
         z-index: 10;
         color: #000;
@@ -52,7 +52,7 @@ body .secondaryFooter {
         text-transform: uppercase;
         flex-basis: 100%;
         padding: 5px 0px; }
-      /* line 68, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+      /* line 68, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
       body .secondaryFooter .serviceLinks .third p {
         z-index: 10;
         color: white;
@@ -61,17 +61,17 @@ body .secondaryFooter {
         flex-basis: 100%;
         text-align: center;
         text-transform: uppercase; }
-      /* line 77, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+      /* line 77, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
       body .secondaryFooter .serviceLinks .third form {
         margin: 0 auto;
         display: flex; }
-        /* line 80, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+        /* line 80, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
         body .secondaryFooter .serviceLinks .third form input {
           color: #036;
           padding: 1em 0;
           margin: 0;
           font-size: 16px; }
-        /* line 86, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+        /* line 86, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
         body .secondaryFooter .serviceLinks .third form .enterEmail {
           font-family: "Interstate", Helvetica, Arial, sans-serif;
           font-style: italic;
@@ -82,7 +82,7 @@ body .secondaryFooter {
           width: 15em;
           flex-flow: row wrap;
           border: 3px solid #fff; }
-        /* line 97, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+        /* line 97, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
         body .secondaryFooter .serviceLinks .third form .submitEmail {
           background: #fff url("../img/footer-joinfamily-submit.gif") center center no-repeat;
           background-color: #fff;
@@ -94,12 +94,12 @@ body .secondaryFooter {
           display: block;
           flex-flow: row wrap;
           border: 3px solid #fff; }
-      /* line 111, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+      /* line 111, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
       body .secondaryFooter .serviceLinks .third .invalidEmail {
         text-transform: uppercase;
         font-weight: bold;
         padding: 10px 0 0 0; }
-  /* line 118, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+  /* line 118, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
   body .secondaryFooter .socialLinks {
     height: 40px;
     display: flex;
@@ -107,7 +107,7 @@ body .secondaryFooter {
     justify-content: center;
     flex-basis: 100%;
     padding-bottom: 80px; }
-    /* line 125, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/secondaryFooter.scss */
+    /* line 125, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/secondaryFooter.scss */
     body .secondaryFooter .socialLinks .icons {
       padding: 0px 15px; }
 
