@@ -17,46 +17,18 @@ body .intro {
     text-align: center; }
   /* line 29, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
   body .intro h3 {
-    padding: .5em; }
+    padding: .5em 0 0 0; }
   /* line 32, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
+  body .intro h6 {
+    text-transform: uppercase; }
+  /* line 35, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
   body .intro p {
     max-width: 750px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
     display: block;
     padding: 5px 0;
-    color: #036; }
-  /* line 41, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
-  body .intro .splitParagraph {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    padding: 10px; }
-    /* line 47, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
-    body .intro .splitParagraph p {
-      max-width: 600px;
-      flex-basis: 50%;
-      flex-flow: row wrap; }
-  /* line 53, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
-  body .intro ul {
-    list-style-type: disc;
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 10px 0px; }
-  /* line 60, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
-  body .intro ol {
-    list-style-type: decimal;
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 10px 0px; }
-    /* line 65, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
-    body .intro ol li {
-      margin-left: 20px; }
-  /* line 70, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introH4ParagraphWithLinksOLCTA.scss */
-  body .intro .inlineLink {
-    padding: 0;
     color: #036; }
 
 /*# sourceMappingURL=introH4ParagraphWithLinksOLCTA.css.map */

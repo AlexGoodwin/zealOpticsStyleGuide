@@ -27,10 +27,11 @@ body{
             text-align:center;
         }
         h3{
-            padding:.5em 0 0 0;
+            padding:.5rem 0 0 0;
         }
         h6{
             text-transform: uppercase;
+            font-size:1rem;
         }
         p{
             max-width:750px;
@@ -38,7 +39,7 @@ body{
             text-align:center;
             margin:0 auto;
             display:block;
-            padding:5px 0;
+            padding:8px 0;
             color:$black;
         }
         .center{
@@ -49,6 +50,7 @@ body{
             .techLinks{
                 display:inline-block;
                 color:$black;
+                padding:0;
             }
         }
         .standAloneButton{
@@ -56,6 +58,8 @@ body{
         }
         img{
             margin:0 auto;
+            width:100%;
+            max-width:800px;
         }
     }
 }

@@ -7,10 +7,6 @@ $turquoise: #366;
 $orange: #c30;
 $rust: #a52900;
 $black: #000;
-@import 'reset.css';
-@import 'typography.css';
-@import 'color.css';
-@import 'style.css';
 
 body{
     .intro{
@@ -18,7 +14,7 @@ body{
         background-repeat: repeat;
         width:100%;
         height:auto;
-        padding: 5rem 1rem;
+        padding: 4rem 1rem;
         margin:0;
         img{
             margin:0 auto;
@@ -27,10 +23,11 @@ body{
             text-align:center;
         }
         h3{
-            padding:.5em 0 0 0;
+            padding:.5rem 0 0 0;
         }
         h6{
             text-transform: uppercase;
+            font-size:1rem;
         }
         p{
             max-width:750px;
@@ -38,10 +35,27 @@ body{
             text-align:center;
             margin:0 auto;
             display:block;
-            padding:5px 0;
-            color:$navy;
+            padding:8px 0;
+            color:$black;
         }
-
-
+        .center{
+            margin:0 auto;
+            a{
+                color:$black;
+            }
+            .techLinks{
+                display:inline-block;
+                color:$black;
+                padding:0;
+            }
+        }
+        .standAloneButton{
+            margin: 16px auto;
+        }
+        img{
+            margin:0 auto;
+            width:100%;
+            max-width:800px;
+        }
     }
 }
