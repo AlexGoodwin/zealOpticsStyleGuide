@@ -116,10 +116,13 @@ body{
                 display:block;
                 margin:0 auto;
             }
-            p{
-               font-weight:bold;
+            a{
+                font-weight:bold;
                 text-transform:uppercase;
+                color:navy;
+                border:4px;
             }
         }
     }
 }
+

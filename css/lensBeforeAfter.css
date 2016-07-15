@@ -1,14 +1,14 @@
 @import url(style.css);
-/* line 13, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+/* line 13, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
 body .beforeAfterAndButtonBoxOverlay {
   height: auto;
   width: auto; }
-  /* line 16, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  /* line 16, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
   body .beforeAfterAndButtonBoxOverlay .beforeAfterContainer {
     width: 100%;
     height: auto;
     justify-content: center; }
-    /* line 20, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 20, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterAndButtonBoxOverlay .beforeAfterContainer .lens {
       display: flex;
       height: 700px;
@@ -18,7 +18,7 @@ body .beforeAfterAndButtonBoxOverlay {
       padding: 0;
       flex-flow: row wrap;
       align-content: center; }
-      /* line 33, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+      /* line 33, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
       body .beforeAfterAndButtonBoxOverlay .beforeAfterContainer .lens h5 {
         text-shadow: 0px 0px 7px #333;
         z-index: 10;
@@ -28,7 +28,7 @@ body .beforeAfterAndButtonBoxOverlay {
         text-transform: uppercase;
         flex-basis: 100%;
         padding: 5px 0px; }
-      /* line 44, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+      /* line 44, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
       body .beforeAfterAndButtonBoxOverlay .beforeAfterContainer .lens h6 {
         text-shadow: 0px 0px 7px #333;
         z-index: 10;
@@ -38,7 +38,7 @@ body .beforeAfterAndButtonBoxOverlay {
         text-transform: uppercase;
         flex-basis: 100%;
         padding: 5px 0px; }
-      /* line 54, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+      /* line 54, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
       body .beforeAfterAndButtonBoxOverlay .beforeAfterContainer .lens p {
         text-shadow: 0px 0px 7px #333;
         z-index: 10;
@@ -48,15 +48,15 @@ body .beforeAfterAndButtonBoxOverlay {
         max-width: 50%;
         flex-basis: 100%;
         text-align: center; }
-    /* line 65, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 65, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterAndButtonBoxOverlay .beforeAfterContainer .left {
       background-image: url(../img/beforeEllume.jpg);
       background-size: cover; }
-    /* line 69, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 69, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterAndButtonBoxOverlay .beforeAfterContainer .right {
       background-image: url(../img/afterEllume.jpg);
       background-size: cover; }
-  /* line 74, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  /* line 74, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
   body .beforeAfterAndButtonBoxOverlay .buttonBoxOverlay {
     width: 345px;
     height: 242px;
@@ -68,15 +68,15 @@ body .beforeAfterAndButtonBoxOverlay {
     right: 0;
     margin-left: auto;
     margin-right: auto; }
-    /* line 85, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 85, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterAndButtonBoxOverlay .buttonBoxOverlay h3 {
       font-size: 2em;
       color: #036; }
-    /* line 89, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 89, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .beforeAfterAndButtonBoxOverlay .buttonBoxOverlay .overlayButton {
       margin: 0 auto; }
 
-/* line 94, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+/* line 94, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
 body .lensPreviews {
   width: 100%;
   height: auto;
@@ -84,11 +84,11 @@ body .lensPreviews {
   background-image: url(../img/decorative-texture-1.png);
   display: flex;
   justify-content: center; }
-  /* line 101, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+  /* line 101, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
   body .lensPreviews .lensThumbnail {
     padding: 0px 110px 0 110px;
     display: inline-block; }
-    /* line 104, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 104, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .lensPreviews .lensThumbnail .lensThumbnailImage {
       border-radius: 30px;
       height: 29px;
@@ -97,14 +97,16 @@ body .lensPreviews {
       margin: 0 auto;
       display: block;
       border: solid #000; }
-    /* line 114, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    /* line 114, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
     body .lensPreviews .lensThumbnail .slideArrow {
       text-align: center;
       display: block;
       margin: 0 auto; }
-    /* line 119, C:/Users/Phillip/Documents/GitHub/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
-    body .lensPreviews .lensThumbnail p {
+    /* line 119, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/lensBeforeAfter.scss */
+    body .lensPreviews .lensThumbnail a {
       font-weight: bold;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: navy;
+      border: 4px; }
 
 /*# sourceMappingURL=lensBeforeAfter.css.map */

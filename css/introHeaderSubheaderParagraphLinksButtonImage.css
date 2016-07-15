@@ -1,0 +1,50 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+@import url(style.css);
+/* line 16, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+body .intro {
+  background-image: url("../img/nice_snow.png");
+  background-repeat: repeat;
+  width: 100%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin: 0; }
+  /* line 23, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+  body .intro img {
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
+  /* line 29, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+  body .intro h3 {
+    padding: .5em 0 0 0; }
+  /* line 32, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+  body .intro h6 {
+    text-transform: uppercase; }
+  /* line 35, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+  body .intro p {
+    max-width: 750px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 0;
+    color: #000; }
+  /* line 44, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+  body .intro .center {
+    margin: 0 auto; }
+    /* line 46, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+    body .intro .center a {
+      color: #000; }
+    /* line 49, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+    body .intro .center .techLinks {
+      display: inline-block;
+      color: #000; }
+  /* line 54, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+  body .intro .standAloneButton {
+    margin: 16px auto; }
+  /* line 57, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderSubheaderParagraphLinksButtonImage.scss */
+  body .intro img {
+    margin: 0 auto; }
+
+/*# sourceMappingURL=introHeaderSubheaderParagraphLinksButtonImage.css.map */

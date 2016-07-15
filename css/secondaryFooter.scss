@@ -17,28 +17,37 @@ body{
         width:100%;
         height:auto;
         justify-content:center;
-//        display:flex;
         padding:0;
         background-image:url(../img/footer-pattern.png);
         background-repeat:repeat;
         .serviceLinks{
             height:auto;
-            padding:120px 0;
+            padding:100px 0;
             width:100%;
             flex-basis:100%;
-            display:inline-block;
+            display:flex;
+            flex-flow:row wrap;
             .third{
-//                padding:30px 0;
                 height:auto;
-                width:33.33%;
-                float:left;
+//                width:33.33%;
+//                float:left;
                 margin:0;
                 flex-flow:row wrap;
                 align-content:center;
-                flex-basis:%;
-                display:flex;
+                flex-basis:33.33%;
+                display:block;
+                padding:20px 0;
+                #mc_embed_signup_scroll{
+                    font-size:0;
+                    display:inline-block;
+                }
+                .mc-field-group{
+                    font-size:0;
+                    display: inline-block;
+                }
                 a{
                     margin:5px auto;
+                    flex-basis:100%;
                 }
                 img{
                     padding-top:5px;
@@ -67,7 +76,7 @@ body{
                 }
                 p{
                     z-index: 10;
-                    color:white;
+                    color:$white;
                     display:block;
                     align-self:center;
                     flex-basis:100%;
@@ -75,8 +84,9 @@ body{
                     text-transform: uppercase;
                 }
                 form{
-                    margin:0 auto;
+                    margin: 5px auto;
                     display:flex;
+                    justify-content: center;
                     input{
                         color:$navy;
                         padding:1em 0;
@@ -89,22 +99,23 @@ body{
                         padding-left:1em;
                         color:white;
                         background:rgba(0,0,0,0);
-                        display:block;
+                        display:inline-block;
                         width:15em;
                         flex-flow:row wrap;
                         border: 3px solid #fff;
+                        font-size:1rem;
                     }
                     .submitEmail{
                         background:#fff url("../img/footer-joinfamily-submit.gif") center center no-repeat;
                         background-color:$white;
                         z-index: 10;
-                        color:white;
-                         font-size:0;
-                        height:100%;
+                        color:rgba(0,0,0,0);
+                        font-size:1rem;
+//                        height:100%;
                         width:3rem;
-                        display:block;
+                        display:inline-block;
                         flex-flow:row wrap;
-                        border: 3px solid #fff;
+                        border: 2px solid #fff;
     
                     }
                 }
@@ -112,6 +123,9 @@ body{
                     text-transform:uppercase;
                     font-weight:bold;
                     padding: 10px 0 0 0;
+                }
+                .clear{
+                    display:inline-block;
                 }
             }
         }
@@ -125,6 +139,30 @@ body{
             .icons{
                 padding:0px 15px;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 500px) {
+    body{
+        .secondaryFooter{
+            .serviceLinks{
+                .third{
+                    flex-basis:100%;
+                }
+            } 
+        }
+    }
+}
+
+@media screen and(max-width: 499px) {
+    body{
+        .secondaryFooter{
+            .serviceLinks{
+                .third{
+                    flex-basis:100%;
+                }
+            } 
         }
     }
 }
