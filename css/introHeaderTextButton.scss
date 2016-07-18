@@ -1,0 +1,50 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+@import 'reset.css';
+@import 'typography.css';
+@import 'color.css';
+@import 'style.css';
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Interstate", Helvetica, Arial, sans-serif;
+    letter-spacing: .025em;
+    color: $darkGrey;
+    line-height: 1.5;
+    font-size: 16px;
+    .intro{
+        background-image:url("../img/nice_snow.png");
+        background-repeat: repeat;
+        width:100%;
+        height:auto;
+        padding: 4rem 1rem;
+        margin:0;
+        img{
+            margin:0 auto;
+            display:block;
+//            padding:30px;
+            text-align:center;
+        }
+        h3{
+            padding:.5em;
+        }
+        p{
+            max-width:750px;
+            width:100%;
+            text-align:center;
+            margin:0 auto;
+            display:block;
+            padding:0;
+        }
+
+    }
+}

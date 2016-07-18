@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(color.css);
+@import url(style.css);
+/* line 15, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderTextButton.scss */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Interstate", Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px; }
+  /* line 24, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderTextButton.scss */
+  body .intro {
+    background-image: url("../img/nice_snow.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
+    padding: 4rem 1rem;
+    margin: 0; }
+    /* line 31, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderTextButton.scss */
+    body .intro img {
+      margin: 0 auto;
+      display: block;
+      text-align: center; }
+    /* line 37, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderTextButton.scss */
+    body .intro h3 {
+      padding: .5em; }
+    /* line 40, /Users/retail/Desktop/code/zealOpticsStyleGuide/css/introHeaderTextButton.scss */
+    body .intro p {
+      max-width: 750px;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      padding: 0; }
+
+/*# sourceMappingURL=introHeaderTextButton.css.map */

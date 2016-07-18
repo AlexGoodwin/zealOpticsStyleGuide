@@ -1,0 +1,183 @@
+$lightGrey: #ccc;
+$mediumGrey: #666;
+$darkGrey: #333;
+$navy: #036;
+$white: #fff;
+$turquoise: #366;
+$orange: #c30;
+$rust: #a52900;
+$black: #000;
+
+
+body{
+    .frameMaterial{
+        height:auto;
+        width:auto;
+        .material{
+            width:100%;
+            height:auto;
+            justify-content:center;
+            .lens{
+                height:700px;
+                width:50%;
+                float:left;
+                margin:0;
+                padding:0;
+                display:flex;
+                flex-flow:row wrap;
+                align-content:center;
+
+                .contentLeft{
+                    height:auto;
+                    width:auto;
+                    padding-right:120px;
+                    display:flex;
+                    flex-flow:row wrap;
+                    align-content:center;
+                    
+                }
+                .contentRight{
+                    height:auto;
+                    width:auto;
+                    padding-left:120px;
+                    display:flex;
+                    flex-flow:row wrap;
+                    align-content:center;
+                    
+                }
+                h5{
+                    z-index: 10;
+                    color:white;
+                    display:block;
+                    align-self:center;
+                    text-transform:uppercase;
+                    flex-basis:100%;
+                    padding:5px 0px;
+                }            
+
+                h6{
+                    z-index: 10;
+                    color:white;
+                    display:block;
+                    align-self:center;
+                    text-transform:uppercase;
+                    flex-basis:100%;
+                    padding:5px 0px;
+                }
+                p{
+                    z-index: 10;
+                    color:white;
+                    display:inline-block;
+                    align-self:center;
+                    width:100% !important;
+                    padding:1em 6em;
+                    flex-basis:100%;
+                    text-align:center;
+                }
+                .overlayButton{
+                    float:left; 
+                    clear:left;
+                }
+            }
+            .left{
+                background-image:url(../img/cotton.jpg);
+                background-size:cover;
+            }
+            .right{
+                background-image:url(../img/leaf.jpg);
+                background-size:cover;
+            }
+        }  
+        .buttonBoxOverlay{
+            width:345px;
+            height:auto;
+            background-color:rgba(0,0,0,0);
+            margin-top:260px;
+            z-index: 11;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            border:5px solid $white;
+            h3{
+               font-size:2em; 
+                color:$white;
+                padding: 1.5em 1em;
+            }
+            .withBreak{
+                display:block;
+            }
+            .withOutBreak{
+                display:none;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1200px) and (min-width: 651px) {
+    body{
+        .frameMaterial{
+            .material{
+                .lens{
+                    padding-top:80px;
+                    .contentLeft{
+                        padding-right:0px;
+                    }
+                    .contentRight{
+                        padding-left:0px;
+                    }
+                    p{
+                        padding:1em 4em;
+                    }
+                }
+            } 
+            .buttonBoxOverlay{
+                width:auto;
+                max-width:450px;
+                height:auto;
+                margin-top:30px;
+                h3{
+                   font-size:2em; 
+                    color:$white;
+                    padding: 1em 2em;
+                }
+                .withBreak{
+                    display:none;
+                }
+                .withOutBreak{
+                    display:block;
+                    width:auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 650px) {
+    body{
+        .frameMaterial{
+            .material{
+                .lens{
+                    width:100%;
+                    padding-top:2em;
+                    height:auto;
+                    .contentLeft{
+                        padding-right:0px;
+                    }
+                    .contentRight{
+                        padding-left:0px;
+                    }
+                    p{
+                        width:100%;
+                        padding:1em;
+                    }
+                }
+            } 
+            .buttonBoxOverlay{
+                display:none;
+            }
+        }
+    }
+}
+
